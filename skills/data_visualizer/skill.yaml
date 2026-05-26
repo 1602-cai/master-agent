@@ -1,0 +1,9 @@
+name: data-visualizer
+description: Generate interactive charts and visualizations from CSV/JSON data sources.
+version: 0.1.0
+entrypoint: skills.data_visualizer.adapter:DataVisualizerSkill
+requires:
+  - llm
+  - filesystem
+  - artifacts
+icon: bar-chart-3

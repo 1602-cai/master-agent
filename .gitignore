@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+node_modules/
+web/node_modules/
+*.tsbuildinfo
+data/provider_keys.json

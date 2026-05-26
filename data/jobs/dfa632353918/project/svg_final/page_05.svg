@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#003366" />
+      <stop offset="100%" stop-color="#1A4F7A" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E67E22" />
+      <stop offset="100%" stop-color="#D35400" />
+    </linearGradient>
+    <filter id="shadow1" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#003366" flood-opacity="0.12" />
+    </filter>
+    <filter id="shadow2" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#003366" flood-opacity="0.15" />
+    </filter>
+    <filter id="shadow3" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#003366" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="#F5F5F5" />
+
+  
+  <rect x="0" y="0" width="1280" height="6" fill="url(#accentGrad)" />
+
+  
+  <rect x="0" y="0" width="1280" height="120" fill="url(#headerGrad)" />
+  
+  
+  <polygon points="0,120 300,0 0,0" fill="#E67E22" opacity="0.08" />
+  <polygon points="1280,120 980,0 1280,0" fill="#E67E22" opacity="0.05" />
+
+  
+  <path fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5" d="M58,28 H58 A18,18 0 0 1 76,46 V46 A18,18 0 0 1 58,64 H58 A18,18 0 0 1 40,46 V46 A18,18 0 0 1 58,28 Z" />
+  <text x="58" y="52" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle" opacity="0.8">05</text>
+
+  
+  <text x="100" y="68" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#E67E22" letter-spacing="4" text-transform="uppercase">SUMMARY &amp; ACTION</text>
+  <text x="100" y="100" font-family="Montserrat Bold, Microsoft YaHei, Arial, sans-serif" font-size="32" fill="#FFFFFF" letter-spacing="1">总结与行动建议</text>
+
+  
+  <path fill="#E67E22" d="M101.50,112 H148.50 A1.50,1.50 0 0 1 150,113.50 V113.50 A1.50,1.50 0 0 1 148.50,115 H101.50 A1.50,1.50 0 0 1 100,113.50 V113.50 A1.50,1.50 0 0 1 101.50,112 Z" />
+
+  
+  
+
+  
+
+  
+  <path fill="#FFFFFF" filter="url(#shadow1)" d="M72,150 H1208 A12,12 0 0 1 1220,162 V268 A12,12 0 0 1 1208,280 H72 A12,12 0 0 1 60,268 V162 A12,12 0 0 1 72,150 Z" />
+  
+  
+  <path fill="#E67E22" d="M63,150 H63 A3,3 0 0 1 66,153 V277 A3,3 0 0 1 63,280 H63 A3,3 0 0 1 60,277 V153 A3,3 0 0 1 63,150 Z" />
+  
+  
+  <path fill="#E67E22" opacity="0.12" d="M98,168 H174 A12,12 0 0 1 186,180 V180 A12,12 0 0 1 174,192 H98 A12,12 0 0 1 86,180 V180 A12,12 0 0 1 98,168 Z" />
+  <text x="136" y="184" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#E67E22" text-anchor="middle">核心结论</text>
+  
+  
+  
+  <text x="122" y="228" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#333333" font-weight="bold">公司整体盈利质量处于</text>
+  <text x="122" y="256" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#333333" font-weight="bold">
+    <tspan fill="#E67E22" font-weight="bold">"中等偏上"</tspan>水平。
+    <tspan fill="#666666" font-weight="normal">主营业务造血能力稳健，毛利率连续三年维持在40%以上；但应收账款周转天数延长至72天，</tspan>
+  </text>
+  <text x="122" y="274" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#666666">经营性现金流波动较大，需关注回款效率与成本管控的平衡。</text>
+
+  
+  <rect x="60" y="300" width="1160" height="1" fill="#EEEEEE" />
+
+  
+  <text x="60" y="340" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#003366" letter-spacing="3">关键行动建议</text>
+  <path fill="#E67E22" d="M61.50,350 H98.50 A1.50,1.50 0 0 1 100,351.50 V351.50 A1.50,1.50 0 0 1 98.50,353 H61.50 A1.50,1.50 0 0 1 60,351.50 V351.50 A1.50,1.50 0 0 1 61.50,350 Z" />
+
+  
+  <path fill="#FFFFFF" filter="url(#shadow2)" d="M72,375 H408 A12,12 0 0 1 420,387 V563 A12,12 0 0 1 408,575 H72 A12,12 0 0 1 60,563 V387 A12,12 0 0 1 72,375 Z" />
+  <path fill="#003366" d="M63,375 H417 A3,3 0 0 1 420,378 V378 A3,3 0 0 1 417,381 H63 A3,3 0 0 1 60,378 V378 A3,3 0 0 1 63,375 Z" />
+  
+  
+  <circle cx="100" cy="410" r="18" fill="#003366" />
+  <text x="100" y="416" font-family="Montserrat Bold, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">1</text>
+  
+  <text x="130" y="417" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#003366">优化应收账款管理</text>
+  
+  <rect x="90" y="438" width="300" height="1" fill="#EEEEEE" />
+  
+  <circle cx="96" cy="462" r="4" fill="#E67E22" />
+  <text x="108" y="468" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">建立客户信用分级评估体系</text>
+  
+  <circle cx="96" cy="490" r="4" fill="#E67E22" />
+  <text x="108" y="496" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">缩短账期至45天以内</text>
+  
+  <circle cx="96" cy="518" r="4" fill="#E67E22" />
+  <text x="108" y="524" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">引入应收账款保理机制</text>
+  
+  <circle cx="96" cy="546" r="4" fill="#E67E22" />
+  <text x="108" y="552" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">设置回款预警与催收自动化</text>
+
+  
+  <path fill="#FFFFFF" filter="url(#shadow2)" d="M472,375 H808 A12,12 0 0 1 820,387 V563 A12,12 0 0 1 808,575 H472 A12,12 0 0 1 460,563 V387 A12,12 0 0 1 472,375 Z" />
+  <path fill="#E67E22" d="M463,375 H817 A3,3 0 0 1 820,378 V378 A3,3 0 0 1 817,381 H463 A3,3 0 0 1 460,378 V378 A3,3 0 0 1 463,375 Z" />
+  
+  <circle cx="500" cy="410" r="18" fill="#E67E22" />
+  <text x="500" y="416" font-family="Montserrat Bold, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">2</text>
+  
+  <text x="530" y="417" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#E67E22">加强成本费用管控</text>
+  
+  <rect x="490" y="438" width="300" height="1" fill="#EEEEEE" />
+  
+  <circle cx="496" cy="462" r="4" fill="#003366" />
+  <text x="508" y="468" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">推行全面预算管理制度</text>
+  
+  <circle cx="496" cy="490" r="4" fill="#003366" />
+  <text x="508" y="496" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">优化供应链降低采购成本</text>
+  
+  <circle cx="496" cy="518" r="4" fill="#003366" />
+  <text x="508" y="524" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">费用支出同比压降5%-8%</text>
+  
+  <circle cx="496" cy="546" r="4" fill="#003366" />
+  <text x="508" y="552" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">每季度开展成本审计复盘</text>
+
+  
+  <path fill="#FFFFFF" filter="url(#shadow2)" d="M872,375 H1208 A12,12 0 0 1 1220,387 V563 A12,12 0 0 1 1208,575 H872 A12,12 0 0 1 860,563 V387 A12,12 0 0 1 872,375 Z" />
+  <path fill="#003366" d="M863,375 H1217 A3,3 0 0 1 1220,378 V378 A3,3 0 0 1 1217,381 H863 A3,3 0 0 1 860,378 V378 A3,3 0 0 1 863,375 Z" />
+  
+  <circle cx="900" cy="410" r="18" fill="#003366" />
+  <text x="900" y="416" font-family="Montserrat Bold, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">3</text>
+  
+  <text x="930" y="417" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#003366">强化现金流稳定性</text>
+  
+  <rect x="890" y="438" width="300" height="1" fill="#EEEEEE" />
+  
+  <circle cx="896" cy="462" r="4" fill="#E67E22" />
+  <text x="908" y="468" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">建立6个月现金流储备</text>
+  
+  <circle cx="896" cy="490" r="4" fill="#E67E22" />
+  <text x="908" y="496" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">多元化融资渠道分散风险</text>
+  
+  <circle cx="896" cy="518" r="4" fill="#E67E22" />
+  <text x="908" y="524" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">优化现金转换周期（CCC）</text>
+  
+  <circle cx="896" cy="546" r="4" fill="#E67E22" />
+  <text x="908" y="552" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#333333">定期进行现金流压力测试</text>
+
+  
+  <path fill="#003366" filter="url(#shadow2)" d="M72,600 H1208 A12,12 0 0 1 1220,612 V678 A12,12 0 0 1 1208,690 H72 A12,12 0 0 1 60,678 V612 A12,12 0 0 1 72,600 Z" />
+  
+  
+  <g transform="translate(90.0, 624.0) scale(1.75)" fill="#E67E22">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 16L12 14V10L13.6569 8.34314C15.1571 6.84285 16 4.80802 16 2.68629V0H13.3137C11.192 0 9.15714 0.842855 7.65685 2.34315L6 4H2L0 6L10 16ZM10.5 7C11.3284 7 12 6.32843 12 5.5C12 4.67157 11.3284 4 10.5 4C9.67157 4 9 4.67157 9 5.5C9 6.32843 9.67157 7 10.5 7Z" />
+    <path d="M4.9274 13.7558L2.24423 11.0726L0 15L1 16L4.9274 13.7558Z" />
+  </g>
+  
+  <text x="130" y="639" font-family="Montserrat SemiBold, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#FFFFFF">下一步工作重点</text>
+  <text x="130" y="662" font-family="Calibri, Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#FFFFFF" opacity="0.8">
+    <tspan>① 月度跟踪应收账款回收率</tspan>
+    <tspan dx="30">② 季度费用审计与成本对标</tspan>
+    <tspan dx="30">③ 半年度现金流压力测试报告</tspan>
+    <tspan dx="30">④ 年度盈利质量全面复盘</tspan>
+  </text>
+
+  
+  <rect x="0" y="714" width="1280" height="6" fill="url(#accentGrad)" />
+</svg>

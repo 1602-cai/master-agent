@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#003366" flood-opacity="0.08"/>
+    </filter>
+    <linearGradient id="accent-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E67E22"/>
+      <stop offset="100%" stop-color="#E67E22" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#EEEEEE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bg-gradient)"/>
+
+  <!-- 顶部标题栏 -->
+  <rect x="0" y="0" width="1280" height="76" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="0" y="76" width="1280" height="1" fill="#EEEEEE"/>
+
+  <!-- 左侧橙色装饰条 -->
+  <rect x="0" y="0" width="4" height="76" fill="#E67E22"/>
+
+  <!-- 标题 -->
+  <text x="48" y="48" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="26" fill="#003366" font-weight="bold">盈利核心指标概览</text>
+
+  <!-- 日期标签 -->
+  <rect x="440" y="28" width="130" height="28" rx="14" fill="#F5F5F5"/>
+  <use href="#tabler-outline/calendar-month.svg" x="454" y="32" width="16" height="16" fill="#E67E22"/>
+  <text x="476" y="47" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#333333">2023-2024</text>
+
+  <!-- 年份切换标签 -->
+  <rect x="590" y="28" width="68" height="28" rx="14" fill="#003366"/>
+  <text x="605" y="47" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">年度</text>
+
+  <rect x="668" y="28" width="68" height="28" rx="14" fill="#F5F5F5"/>
+  <text x="683" y="47" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#666666">季度</text>
+
+  <!-- ==================== 三大核心指标卡片 ==================== -->
+
+  <!-- 卡片1: 营业总收入 -->
+  <rect x="48" y="104" width="372" height="176" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="48" y="104" width="372" height="4" rx="2" fill="#E67E22"/>
+
+  <use href="#tabler-outline/coin.svg" x="72" y="128" width="22" height="22" fill="#E67E22"/>
+  <text x="104" y="145" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="15" fill="#666666">营业总收入</text>
+
+  <text x="72" y="210" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="38" fill="#003366">286.49</text>
+  <text x="210" y="210" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="16" fill="#666666">亿元</text>
+
+  <rect x="72" y="232" width="60" height="24" rx="12" fill="#E8F5E9"/>
+  <use href="#tabler-outline/trending-up.svg" x="80" y="236" width="14" height="14" fill="#2E7D32"/>
+  <text x="98" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#2E7D32" font-weight="bold">+12.8%</text>
+
+  <text x="148" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">同比</text>
+
+  <!-- 卡片2: 归母净利润 -->
+  <rect x="454" y="104" width="372" height="176" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="454" y="104" width="372" height="4" rx="2" fill="#003366"/>
+
+  <use href="#tabler-outline/file-dollar.svg" x="478" y="128" width="22" height="22" fill="#003366"/>
+  <text x="510" y="145" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="15" fill="#666666">归母净利润</text>
+
+  <text x="478" y="210" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="38" fill="#003366">42.37</text>
+  <text x="614" y="210" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="16" fill="#666666">亿元</text>
+
+  <rect x="478" y="232" width="60" height="24" rx="12" fill="#E8F5E9"/>
+  <use href="#tabler-outline/trending-up.svg" x="486" y="236" width="14" height="14" fill="#2E7D32"/>
+  <text x="504" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#2E7D32" font-weight="bold">+8.3%</text>
+
+  <text x="554" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">同比</text>
+
+  <!-- 卡片3: 毛利率 -->
+  <rect x="860" y="104" width="372" height="176" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="860" y="104" width="372" height="4" rx="2" fill="#E67E22"/>
+
+  <use href="#tabler-outline/percentage.svg" x="884" y="128" width="22" height="22" fill="#E67E22"/>
+  <text x="916" y="145" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="15" fill="#666666">毛利率</text>
+
+  <text x="884" y="210" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="38" fill="#003366">32.6</text>
+  <text x="1020" y="210" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="16" fill="#666666">%</text>
+
+  <rect x="884" y="232" width="60" height="24" rx="12" fill="#FFEBEE"/>
+  <use href="#tabler-outline/trending-down.svg" x="892" y="236" width="14" height="14" fill="#C62828"/>
+  <text x="910" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#C62828" font-weight="bold">-1.2%</text>
+
+  <text x="960" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">同比</text>
+
+  <!-- ==================== 底部区域 - 营收结构 ==================== -->
+
+  <!-- 左侧：营收结构标题 -->
+  <rect x="48" y="308" width="590" height="384" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="48" y="308" width="590" height="1" fill="#EEEEEE"/>
+
+  <text x="72" y="340" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="18" fill="#003366">营收结构分析</text>
+  <text x="72" y="360" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#999999">按业务板块划分（2024年度）</text>
+
+  <!-- 横条图 - 业务1 -->
+  <text x="72" y="400" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">智慧终端业务</text>
+  <text x="550" y="400" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">45.2%</text>
+  <rect x="72" y="410" width="510" height="8" rx="4" fill="#EEEEEE"/>
+  <rect x="72" y="410" width="231" height="8" rx="4" fill="#003366"/>
+
+  <!-- 业务2 -->
+  <text x="72" y="450" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">云计算与AI服务</text>
+  <text x="550" y="450" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">28.7%</text>
+  <rect x="72" y="460" width="510" height="8" rx="4" fill="#EEEEEE"/>
+  <rect x="72" y="460" width="147" height="8" rx="4" fill="#E67E22"/>
+
+  <!-- 业务3 -->
+  <text x="72" y="500" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">企业软件服务</text>
+  <text x="550" y="500" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">16.3%</text>
+  <rect x="72" y="510" width="510" height="8" rx="4" fill="#EEEEEE"/>
+  <rect x="72" y="510" width="84" height="8" rx="4" fill="#999999"/>
+
+  <!-- 业务4 -->
+  <text x="72" y="550" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">其他业务</text>
+  <text x="550" y="550" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">9.8%</text>
+  <rect x="72" y="560" width="510" height="8" rx="4" fill="#EEEEEE"/>
+  <rect x="72" y="560" width="50" height="8" rx="4" fill="#CCCCCC"/>
+
+  <!-- 分割线 -->
+  <rect x="72" y="590" width="510" height="1" fill="#EEEEEE"/>
+
+  <!-- 注释 -->
+  <use href="#tabler-outline/trending-up-2.svg" x="72" y="612" width="16" height="16" fill="#E67E22"/>
+  <text x="96" y="625" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">智慧终端业务同比增长</text>
+  <text x="230" y="625" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="12" fill="#2E7D32" font-weight="bold">+15.6%</text>
+  <text x="296" y="625" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">，驱动整体营收增长</text>
+
+  <!-- ==================== 右侧：盈利能力趋势 ==================== -->
+
+  <rect x="662" y="308" width="570" height="384" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="662" y="308" width="570" height="1" fill="#EEEEEE"/>
+
+  <text x="686" y="340" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="18" fill="#003366">盈利能力趋势</text>
+  <text x="686" y="360" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#999999">近四个季度核心指标变化</text>
+
+  <!-- 图例 -->
+  <rect x="686" y="380" width="12" height="12" rx="2" fill="#003366"/>
+  <text x="704" y="391" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">毛利率</text>
+
+  <rect x="770" y="380" width="12" height="12" rx="2" fill="#E67E22"/>
+  <text x="788" y="391" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">净利率</text>
+
+  <!-- 简易折线图区域 -->
+  <!-- Y轴标签 -->
+  <text x="700" y="450" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">40%</text>
+  <text x="700" y="496" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">30%</text>
+  <text x="700" y="542" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">20%</text>
+  <text x="700" y="588" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">10%</text>
+  <text x="700" y="634" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">0%</text>
+
+  <!-- Y轴网格线 -->
+  <rect x="718" y="442" width="490" height="1" fill="#EEEEEE"/>
+  <rect x="718" y="488" width="490" height="1" fill="#EEEEEE"/>
+  <rect x="718" y="534" width="490" height="1" fill="#EEEEEE"/>
+  <rect x="718" y="580" width="490" height="1" fill="#EEEEEE"/>
+  <rect x="718" y="626" width="490" height="1" fill="#EEEEEE"/>
+
+  <!-- X轴标签 -->
+  <text x="740" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q1</text>
+  <text x="848" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q2</text>
+  <text x="956" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q3</text>
+  <text x="1064" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q4</text>
+
+  <!-- 毛利率折线路径 (数据点: Q1=32.8%, Q2=33.1%, Q3=32.6%, Q4=32.0%) -->
+  <!-- Y映射：40%->442, 0%->626, each 10% = 46px -->
+  <!-- 32.8% -> 626 - (32.8/40)*184 = 626 - 150.9 = 475 -->
+  <!-- 33.1% -> 626 - 152.3 = 474 -->
+  <!-- 32.6% -> 626 - 150.0 = 476 -->
+  <!-- 32.0% -> 626 - 147.2 = 479 -->
+  <polyline points="742,477 850,476 958,478 1066,481" fill="none" stroke="#003366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 毛利率数据点 -->
+  <circle cx="742" cy="477" r="4" fill="#003366"/>
+  <circle cx="850" cy="476" r="4" fill="#003366"/>
+  <circle cx="958" cy="478" r="4" fill="#003366"/>
+  <circle cx="1066" cy="481" r="4" fill="#003366"/>
+
+  <!-- 毛利率数据标签 -->
+  <text x="742" y="470" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">32.8%</text>
+  <text x="850" y="468" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">33.1%</text>
+  <text x="958" y="470" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">32.6%</text>
+  <text x="1066" y="473" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">32.0%</text>
+
+  <!-- 净利率折线路径 (数据点: Q1=14.2%, Q2=14.8%, Q3=15.1%, Q4=14.6%) -->
+  <!-- 14.2% -> 626 - (14.2/40)*184 = 626 - 65.3 = 561 -->
+  <!-- 14.8% -> 626 - 68.1 = 558 -->
+  <!-- 15.1% -> 626 - 69.5 = 557 -->
+  <!-- 14.6% -> 626 - 67.2 = 559 -->
+  <polyline points="742,561 850,558 958,557 1066,559" fill="none" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 净利率数据点 -->
+  <circle cx="742" cy="561" r="4" fill="#E67E22"/>
+  <circle cx="850" cy="558" r="4" fill="#E67E22"/>
+  <circle cx="958" cy="557" r="4" fill="#E67E22"/>
+  <circle cx="1066" cy="559" r="4" fill="#E67E22"/>
+
+  <!-- 净利率数据标签 -->
+  <text x="742" y="574" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">14.2%</text>
+  <text x="850" y="571" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">14.8%</text>
+  <text x="958" y="570" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">15.1%</text>
+  <text x="1066" y="572" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">14.6%</text>
+
+  <!-- 底部小注释 -->
+  <rect x="686" y="670" width="522" height="14" rx="2" fill="#F5F5F5" opacity="0.6"/>
+  <text x="692" y="680" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#999999">数据来源：公司年度财报  |  统计截止日期：2024年12月31日</text>
+
+</svg>

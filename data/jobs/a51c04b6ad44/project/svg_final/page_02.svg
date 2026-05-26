@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1628" />
+      <stop offset="100%" stop-color="#0F1F3D" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#48CAE4" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)" />
+    </linearGradient>
+    <linearGradient id="cardBgRight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(72,202,228,0.08)" />
+      <stop offset="100%" stop-color="rgba(0,180,216,0.03)" />
+    </linearGradient>
+    <linearGradient id="statBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(72,202,228,0.15)" />
+      <stop offset="100%" stop-color="rgba(0,119,182,0.08)" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="rgba(0,0,0,0.3)" />
+    </filter>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGrad)" />
+
+  
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="80" x2="1280" y2="80" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="160" x2="1280" y2="160" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="240" x2="1280" y2="240" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="320" x2="1280" y2="320" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="400" x2="1280" y2="400" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="480" x2="1280" y2="480" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="560" x2="1280" y2="560" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="640" x2="1280" y2="640" stroke="#48CAE4" stroke-width="0.5" />
+    <line x1="0" y1="720" x2="1280" y2="720" stroke="#48CAE4" stroke-width="0.5" />
+  </g>
+
+  
+  <rect x="0" y="0" width="1280" height="3" fill="url(#accentGrad)" />
+
+  
+  <text x="1240" y="690" fill="#48CAE4" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" text-anchor="end" opacity="0.6">02</text>
+
+  
+
+  
+  <path fill="url(#cardBg)" stroke="rgba(72,202,228,0.08)" stroke-width="1" d="M56,40 H604 A16,16 0 0 1 620,56 V664 A16,16 0 0 1 604,680 H56 A16,16 0 0 1 40,664 V56 A16,16 0 0 1 56,40 Z" />
+
+  
+  <path fill="url(#accentGrad)" opacity="0.12" d="M56,40 H604 A16,16 0 0 1 620,56 V88 A16,16 0 0 1 604,104 H56 A16,16 0 0 1 40,88 V56 A16,16 0 0 1 56,40 Z" />
+  <rect x="40" y="80" width="580" height="24" fill="url(#accentGrad)" opacity="0.06" />
+
+  
+  
+  <g transform="translate(65.0, 62.0) scale(0.0859375)" fill="#48CAE4">
+    <path d="M136,32V216H40V85.35a8,8,0,0,1,3.56-6.66l80-53.33A8,8,0,0,1,136,32Z" opacity="0.2" />
+    <path d="M240,208H224V96a16,16,0,0,0-16-16H144V32a16,16,0,0,0-24.88-13.32L39.12,72A16,16,0,0,0,32,85.34V208H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM208,96V208H144V96ZM48,85.34,128,32V208H48ZM112,112v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm-32,0v16a8,8,0,0,1-16,0V112a8,8,0,1,1,16,0Zm0,56v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Zm32,0v16a8,8,0,0,1-16,0V168a8,8,0,0,1,16,0Z" />
+  </g>
+  <text x="97" y="79" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">公司概况</text>
+
+  
+  <text x="65" y="145" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" font-weight="700">锐明技术</text>
+  <path fill="rgba(72,202,228,0.2)" stroke="rgba(72,202,228,0.3)" stroke-width="1" d="M256,127 H388 A4,4 0 0 1 392,131 V151 A4,4 0 0 1 388,155 H256 A4,4 0 0 1 252,151 V131 A4,4 0 0 1 256,127 Z" />
+  <text x="322" y="147" fill="#48CAE4" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" text-anchor="middle" font-weight="600">股票代码: 002970</text>
+
+  
+  <line x1="65" y1="180" x2="595" y2="180" stroke="url(#accentGrad)" stroke-width="1" opacity="0.4" />
+
+  
+  <g>
+    
+    <path fill="url(#statBg)" stroke="rgba(72,202,228,0.12)" stroke-width="1" d="M75,200 H225 A10,10 0 0 1 235,210 V270 A10,10 0 0 1 225,280 H75 A10,10 0 0 1 65,270 V210 A10,10 0 0 1 75,200 Z" />
+    
+  <g transform="translate(85.0, 218.0) scale(0.0703125)" fill="#48CAE4">
+    <path d="M216,48V88H40V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2" />
+    <path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z" />
+  </g>
+    <text x="113" y="233" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">成立年份</text>
+    <text x="85" y="268" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700">2002 年</text>
+
+    
+    <path fill="url(#statBg)" stroke="rgba(72,202,228,0.12)" stroke-width="1" d="M265,200 H415 A10,10 0 0 1 425,210 V270 A10,10 0 0 1 415,280 H265 A10,10 0 0 1 255,270 V210 A10,10 0 0 1 265,200 Z" />
+    
+  <g transform="translate(275.0, 218.0) scale(0.0703125)" fill="#48CAE4">
+    <path d="M128,24a80,80,0,0,0-80,80c0,72,80,128,80,128s80-56,80-128A80,80,0,0,0,128,24Zm0,112a32,32,0,1,1,32-32A32,32,0,0,1,128,136Z" opacity="0.2" />
+    <path d="M200,224H150.54A266.56,266.56,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25a88,88,0,0,0-176,0c0,31.4,14.51,64.68,42,96.25A266.56,266.56,0,0,0,105.46,224H56a8,8,0,0,0,0,16H200a8,8,0,0,0,0-16ZM56,104a72,72,0,0,1,144,0c0,57.23-55.47,105-72,118C111.47,209,56,161.23,56,104Zm112,0a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Z" />
+  </g>
+    <text x="303" y="233" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">总部</text>
+    <text x="275" y="268" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700">深圳</text>
+
+    
+    <path fill="url(#statBg)" stroke="rgba(72,202,228,0.12)" stroke-width="1" d="M455,200 H585 A10,10 0 0 1 595,210 V270 A10,10 0 0 1 585,280 H455 A10,10 0 0 1 445,270 V210 A10,10 0 0 1 455,200 Z" />
+    
+  <g transform="translate(462.0, 218.0) scale(0.0703125)" fill="#48CAE4">
+    <path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm87.63,96H175.8c-1.41-28.46-10.27-55.47-25.12-77A88.2,88.2,0,0,1,215.63,120ZM96.23,136h63.54c-1.68,30.87-13,59.62-31.77,79.89C109.27,195.62,97.91,166.87,96.23,136Zm0-16c1.68-30.87,13-59.62,31.77-79.89,18.73,20.27,30.09,49,31.77,79.89Zm9.09-77C90.47,64.53,81.61,91.54,80.2,120H40.37A88.2,88.2,0,0,1,105.32,43ZM40.37,136H80.2c1.41,28.46,10.27,55.47,25.12,77A88.2,88.2,0,0,1,40.37,136Zm110.31,77c14.85-21.56,23.71-48.57,25.12-77h39.83A88.2,88.2,0,0,1,150.68,213Z" />
+  </g>
+    <text x="490" y="233" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">全球覆盖</text>
+    <text x="462" y="268" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700">100+</text>
+    <text x="462" y="284" fill="#48CAE4" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12">国家和地区</text>
+  </g>
+
+  
+  <text x="65" y="330" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="600">主营业务</text>
+  <text x="65" y="360" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" opacity="0.9">商用车视频监控和人工智能解决方案</text>
+
+  
+  <text x="65" y="405" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="600">业务覆盖</text>
+
+  
+  <path fill="rgba(0,119,182,0.15)" stroke="rgba(72,202,228,0.15)" stroke-width="1" d="M73,425 H182 A8,8 0 0 1 190,433 V469 A8,8 0 0 1 182,477 H73 A8,8 0 0 1 65,469 V433 A8,8 0 0 1 73,425 Z" />
+  
+  <g transform="translate(80.0, 440.0) scale(0.0703125)" fill="#48CAE4">
+    <path d="M48,184H88v24a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8Zm120,24a8,8,0,0,0,8,8h24a8,8,0,0,0,8-8V184H168ZM48,72v40H208V72Z" opacity="0.2" />
+    <path d="M184,32H72A32,32,0,0,0,40,64V208a16,16,0,0,0,16,16H80a16,16,0,0,0,16-16V192h64v16a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V64A32,32,0,0,0,184,32ZM56,176V120H200v56Zm0-96H200v24H56ZM72,48H184a16,16,0,0,1,16,16H56A16,16,0,0,1,72,48Zm8,160H56V192H80Zm96,0V192h24v16Zm-72-60a12,12,0,1,1-12-12A12,12,0,0,1,104,148Zm72,0a12,12,0,1,1-12-12A12,12,0,0,1,176,148Zm72-68v24a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0ZM24,80v24a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0Z" />
+  </g>
+  <text x="108" y="455" fill="#E0F4FF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15">公交</text>
+
+  
+  <path fill="rgba(0,119,182,0.15)" stroke="rgba(72,202,228,0.15)" stroke-width="1" d="M213,425 H322 A8,8 0 0 1 330,433 V469 A8,8 0 0 1 322,477 H213 A8,8 0 0 1 205,469 V433 A8,8 0 0 1 213,425 Z" />
+  
+  <g transform="translate(220.0, 440.0) scale(1.125)" fill="#48CAE4">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 1L1.66667 5H0V8H1V15H3V13H13V15H15V8H16V5H14.3333L13 1H3ZM4 9C3.44772 9 3 9.44772 3 10C3 10.5523 3.44772 11 4 11C4.55228 11 5 10.5523 5 10C5 9.44772 4.55228 9 4 9ZM11.5585 3H4.44152L3.10819 7H12.8918L11.5585 3ZM12 9C11.4477 9 11 9.44772 11 10C11 10.5523 11.4477 11 12 11C12.5523 11 13 10.5523 13 10C13 9.44772 12.5523 9 12 9Z" />
+  </g>
+  <text x="248" y="455" fill="#E0F4FF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15">出租</text>
+
+  
+  <path fill="rgba(0,119,182,0.15)" stroke="rgba(72,202,228,0.15)" stroke-width="1" d="M353,425 H462 A8,8 0 0 1 470,433 V469 A8,8 0 0 1 462,477 H353 A8,8 0 0 1 345,469 V433 A8,8 0 0 1 353,425 Z" />
+  
+  <g transform="translate(360.0, 440.0) scale(0.0703125)" fill="#48CAE4">
+    <path d="M240,120v64a8,8,0,0,1-8,8H208a24,24,0,0,0-32-22.63h0A24,24,0,0,0,160,192H96a24,24,0,0,0-48,0H24a8,8,0,0,1-8-8V144H176V120Z" opacity="0.2" />
+    <path d="M247.42,117l-14-35A15.93,15.93,0,0,0,218.58,72H184V64a8,8,0,0,0-8-8H24A16,16,0,0,0,8,72V184a16,16,0,0,0,16,16H41a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V120A7.94,7.94,0,0,0,247.42,117ZM184,88h34.58l9.6,24H184ZM24,72H168v64H24ZM72,208a16,16,0,1,1,16-16A16,16,0,0,1,72,208Zm81-24H103a32,32,0,0,0-62,0H24V152H168v12.31A32.11,32.11,0,0,0,153,184Zm31,24a16,16,0,1,1,16-16A16,16,0,0,1,184,208Zm48-24H215a32.06,32.06,0,0,0-31-24V128h48Z" />
+  </g>
+  <text x="388" y="455" fill="#E0F4FF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15">货运</text>
+
+  
+  <path fill="rgba(0,119,182,0.15)" stroke="rgba(72,202,228,0.15)" stroke-width="1" d="M493,425 H587 A8,8 0 0 1 595,433 V469 A8,8 0 0 1 587,477 H493 A8,8 0 0 1 485,469 V433 A8,8 0 0 1 493,425 Z" />
+  
+  <g transform="translate(500.0, 440.0) scale(0.75)" fill="#48CAE4">
+    <path d="M19 13.431v2.569c0 2.398 -3.205 4 -7 4s-7 -1.602 -7 -4v-2.569l5.886 2.354a3 3 0 0 0 2.011 .078l.217 -.078zm2 -2.955l-8.629 3.452a1 1 0 0 1 -.742 0l-10 -4c-.839 -.335 -.839 -1.521 0 -1.856l10 -4a1 1 0 0 1 .245 -.064l.126 -.008l.126 .008a1 1 0 0 1 .245 .064l10.032 4.013l.108 .055l.099 .068l.088 .076l.075 .082l.035 .044l.073 .115l.052 .115l.034 .102l.025 .135l.006 .058l.002 6.065a1 1 0 0 1 -2 0z" />
+  </g>
+  <text x="528" y="455" fill="#E0F4FF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15">校车</text>
+
+  
+  <text x="65" y="510" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" font-weight="600">全球布局</text>
+
+  
+  <path fill="rgba(72,202,228,0.04)" stroke="rgba(72,202,228,0.08)" stroke-width="1" d="M77,530 H583 A12,12 0 0 1 595,542 V638 A12,12 0 0 1 583,650 H77 A12,12 0 0 1 65,638 V542 A12,12 0 0 1 77,530 Z" />
+
+  
+  <g opacity="0.3">
+    <circle cx="130" cy="575" r="8" fill="#48CAE4" />
+    <circle cx="160" cy="570" r="6" fill="#48CAE4" />
+    <circle cx="185" cy="580" r="7" fill="#48CAE4" />
+    <circle cx="210" cy="568" r="5" fill="#48CAE4" />
+    <circle cx="240" cy="578" r="6" fill="#48CAE4" />
+    <circle cx="270" cy="572" r="8" fill="#48CAE4" />
+    <circle cx="300" cy="580" r="5" fill="#48CAE4" />
+    <circle cx="330" cy="570" r="7" fill="#48CAE4" />
+    <circle cx="360" cy="576" r="6" fill="#48CAE4" />
+    <circle cx="390" cy="582" r="5" fill="#48CAE4" />
+    <circle cx="420" cy="568" r="8" fill="#48CAE4" />
+    <circle cx="450" cy="575" r="6" fill="#48CAE4" />
+    <circle cx="480" cy="580" r="5" fill="#48CAE4" />
+    <circle cx="510" cy="572" r="7" fill="#48CAE4" />
+    <circle cx="540" cy="578" r="6" fill="#48CAE4" />
+    <circle cx="150" cy="610" r="5" fill="#48CAE4" />
+    <circle cx="200" cy="615" r="6" fill="#48CAE4" />
+    <circle cx="280" cy="608" r="5" fill="#48CAE4" />
+    <circle cx="350" cy="612" r="6" fill="#48CAE4" />
+    <circle cx="450" cy="610" r="5" fill="#48CAE4" />
+    <circle cx="520" cy="615" r="6" fill="#48CAE4" />
+  </g>
+  
+  <g opacity="0.08" stroke="#48CAE4" stroke-width="0.8" fill="none">
+    <line x1="130" y1="575" x2="270" y2="572" />
+    <line x1="240" y1="578" x2="420" y2="568" />
+    <line x1="330" y1="570" x2="510" y2="572" />
+    <line x1="150" y1="610" x2="350" y2="612" />
+    <line x1="280" y1="608" x2="520" y2="615" />
+    <line x1="185" y1="580" x2="300" y2="580" />
+    <line x1="390" y1="582" x2="540" y2="578" />
+  </g>
+
+  <text x="340" y="640" fill="#48CAE4" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" text-anchor="middle" opacity="0.7">业务覆盖全球 100+ 个国家和地区</text>
+
+  
+
+  
+  <path fill="url(#cardBgRight)" stroke="rgba(72,202,228,0.1)" stroke-width="1" d="M666,40 H1224 A16,16 0 0 1 1240,56 V664 A16,16 0 0 1 1224,680 H666 A16,16 0 0 1 650,664 V56 A16,16 0 0 1 666,40 Z" />
+
+  
+  <path fill="url(#accentGrad)" opacity="0.15" d="M666,40 H1224 A16,16 0 0 1 1240,56 V88 A16,16 0 0 1 1224,104 H666 A16,16 0 0 1 650,88 V56 A16,16 0 0 1 666,40 Z" />
+  <rect x="650" y="80" width="590" height="24" fill="url(#accentGrad)" opacity="0.08" />
+
+  
+  <g transform="translate(675.0, 62.0) scale(0.0859375)" fill="#48CAE4">
+    <path d="M224,56V208H32V48H216A8,8,0,0,1,224,56Z" opacity="0.2" />
+    <path d="M232,208a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V48a8,8,0,0,1,16,0V200H224A8,8,0,0,1,232,208ZM132,160a12,12,0,1,0-12-12A12,12,0,0,0,132,160Zm-24-56A12,12,0,1,0,96,92,12,12,0,0,0,108,104ZM76,176a12,12,0,1,0-12-12A12,12,0,0,0,76,176Zm96-48a12,12,0,1,0-12-12A12,12,0,0,0,172,128Zm24-40a12,12,0,1,0-12-12A12,12,0,0,0,196,88Zm-20,76a12,12,0,1,0,12-12A12,12,0,0,0,176,164Z" />
+  </g>
+  <text x="707" y="79" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">分析框架</text>
+
+  
+  <text x="675" y="125" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" opacity="0.8">本报告将从以下四个维度对锐明技术进行系统分析</text>
+
+  
+
+  
+  <path fill="rgba(72,202,228,0.06)" stroke="rgba(72,202,228,0.12)" stroke-width="1" filter="url(#shadow)" d="M687,150 H918 A12,12 0 0 1 930,162 V278 A12,12 0 0 1 918,290 H687 A12,12 0 0 1 675,278 V162 A12,12 0 0 1 687,150 Z" />
+  <path fill="#48CAE4" d="M677,150 H928 A2,2 0 0 1 930,152 V152 A2,2 0 0 1 928,154 H677 A2,2 0 0 1 675,152 V152 A2,2 0 0 1 677,150 Z" />
+  <circle cx="700" cy="180" r="14" fill="rgba(72,202,228,0.15)" />
+  <text x="700" y="185" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">01</text>
+  <text x="725" y="185" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" font-weight="600">行业分析</text>
+  <text x="700" y="215" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">商用车视频监控行业</text>
+  <text x="700" y="237" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">市场规模与增长趋势</text>
+  <text x="700" y="259" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">竞争格局分析</text>
+
+  
+  <path fill="rgba(72,202,228,0.06)" stroke="rgba(72,202,228,0.12)" stroke-width="1" filter="url(#shadow)" d="M962,150 H1203 A12,12 0 0 1 1215,162 V278 A12,12 0 0 1 1203,290 H962 A12,12 0 0 1 950,278 V162 A12,12 0 0 1 962,150 Z" />
+  <path fill="#00B4D8" d="M952,150 H1213 A2,2 0 0 1 1215,152 V152 A2,2 0 0 1 1213,154 H952 A2,2 0 0 1 950,152 V152 A2,2 0 0 1 952,150 Z" />
+  <circle cx="975" cy="180" r="14" fill="rgba(0,180,216,0.15)" />
+  <text x="975" y="185" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">02</text>
+  <text x="1000" y="185" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" font-weight="600">财务分析</text>
+  <text x="975" y="215" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">营收结构与增长分析</text>
+  <text x="975" y="237" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">盈利能力指标</text>
+  <text x="975" y="259" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">现金流与财务健康度</text>
+
+  
+  <path fill="rgba(72,202,228,0.06)" stroke="rgba(72,202,228,0.12)" stroke-width="1" filter="url(#shadow)" d="M687,310 H918 A12,12 0 0 1 930,322 V438 A12,12 0 0 1 918,450 H687 A12,12 0 0 1 675,438 V322 A12,12 0 0 1 687,310 Z" />
+  <path fill="#0077B6" d="M677,310 H928 A2,2 0 0 1 930,312 V312 A2,2 0 0 1 928,314 H677 A2,2 0 0 1 675,312 V312 A2,2 0 0 1 677,310 Z" />
+  <circle cx="700" cy="340" r="14" fill="rgba(0,119,182,0.15)" />
+  <text x="700" y="345" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">03</text>
+  <text x="725" y="345" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" font-weight="600">产品与技术</text>
+  <text x="700" y="375" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">AI算法与视频分析技术</text>
+  <text x="700" y="397" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">产品矩阵与解决方案</text>
+  <text x="700" y="419" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">研发投入与创新能力</text>
+
+  
+  <path fill="rgba(72,202,228,0.06)" stroke="rgba(72,202,228,0.12)" stroke-width="1" filter="url(#shadow)" d="M962,310 H1203 A12,12 0 0 1 1215,322 V438 A12,12 0 0 1 1203,450 H962 A12,12 0 0 1 950,438 V322 A12,12 0 0 1 962,310 Z" />
+  <path fill="#90E0EF" d="M952,310 H1213 A2,2 0 0 1 1215,312 V312 A2,2 0 0 1 1213,314 H952 A2,2 0 0 1 950,312 V312 A2,2 0 0 1 952,310 Z" />
+  <circle cx="975" cy="340" r="14" fill="rgba(144,224,239,0.15)" />
+  <text x="975" y="345" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">04</text>
+  <text x="1000" y="345" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" font-weight="600">投资价值</text>
+  <text x="975" y="375" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">估值分析与对标</text>
+  <text x="975" y="397" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">核心增长驱动因素</text>
+  <text x="975" y="419" fill="#B8D8E8" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" opacity="0.8">风险提示与总结</text>
+
+  
+  <path fill="rgba(0,119,182,0.1)" stroke="rgba(72,202,228,0.08)" stroke-width="1" d="M685,475 H1205 A10,10 0 0 1 1215,485 V515 A10,10 0 0 1 1205,525 H685 A10,10 0 0 1 675,515 V485 A10,10 0 0 1 685,475 Z" />
+  
+  <g transform="translate(695.0, 492.0) scale(0.0625)" fill="#48CAE4">
+    <path d="M208,104a79.86,79.86,0,0,1-30.59,62.92A24.29,24.29,0,0,0,168,186v6a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8v-6a24.11,24.11,0,0,0-9.3-19A79.87,79.87,0,0,1,48,104.45C47.76,61.09,82.72,25,126.07,24A80,80,0,0,1,208,104Z" opacity="0.2" />
+    <path d="M176,232a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,232Zm40-128a87.55,87.55,0,0,1-33.64,69.21A16.24,16.24,0,0,0,176,186v6a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16v-6a16,16,0,0,0-6.23-12.66A87.59,87.59,0,0,1,40,104.49C39.74,56.83,78.26,17.14,125.88,16A88,88,0,0,1,216,104Zm-16,0a72,72,0,0,0-73.74-72c-39,.92-70.47,33.39-70.26,72.39a71.65,71.65,0,0,0,27.64,56.3A32,32,0,0,1,96,186v6h64v-6a32.15,32.15,0,0,1,12.47-25.35A71.65,71.65,0,0,0,200,104Zm-16.11-9.34a57.6,57.6,0,0,0-46.56-46.55,8,8,0,0,0-2.66,15.78c16.57,2.79,30.63,16.85,33.44,33.45A8,8,0,0,0,176,104a9,9,0,0,0,1.35-.11A8,8,0,0,0,183.89,94.66Z" />
+  </g>
+  <text x="720" y="505" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" opacity="0.9">分析工具：PEST 分析 · Porter 五力模型 · 杜邦分析 · DCF 估值模型</text>
+
+  
+  <path fill="rgba(0,119,182,0.1)" stroke="rgba(72,202,228,0.08)" stroke-width="1" d="M685,540 H1205 A10,10 0 0 1 1215,550 V580 A10,10 0 0 1 1205,590 H685 A10,10 0 0 1 675,580 V550 A10,10 0 0 1 685,540 Z" />
+  
+  <g transform="translate(695.0, 557.0) scale(0.0625)" fill="#48CAE4">
+    <path d="M216,80c0,26.51-39.4,48-88,48S40,106.51,40,80s39.4-48,88-48S216,53.49,216,80Z" opacity="0.2" />
+    <path d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z" />
+  </g>
+  <text x="720" y="570" fill="#90E0EF" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" opacity="0.9">数据来源：公司年报 · Wind 金融终端 · 行业白皮书 · 公开披露信息</text>
+
+  
+  <g opacity="0.12">
+    <path d="M 620 360 L 650 360" stroke="#48CAE4" stroke-width="2" fill="none" />
+    <polygon points="650,355 660,360 650,365" fill="#48CAE4" />
+  </g>
+
+</svg>

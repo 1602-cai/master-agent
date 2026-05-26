@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="leftClip"><rect x="0" y="0" width="640" height="720" rx="0"/></clipPath>
+    <clipPath id="rightClip"><rect x="640" y="0" width="640" height="720" rx="0"/></clipPath>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F5F5F5"/>
+
+  <!-- ===== 左侧 — 风险 (深色背景) ===== -->
+  <rect x="0" y="0" width="640" height="720" fill="#003366"/>
+
+  <!-- 装饰性斜线区块 -->
+  <rect x="0" y="0" width="640" height="8" fill="#E67E22"/>
+
+  <!-- 左侧顶部区域 -->
+  <rect x="60" y="80" width="48" height="48" rx="24" fill="rgba(230,126,34,0.2)"/>
+  <use href="#icon-tabler-outline-alert-triangle" x="72" y="92" width="24" height="24" fill="#E67E22"/>
+
+  <text x="124" y="112" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="28" fill="#FFFFFF" font-weight="600">风险</text>
+  <text x="124" y="136" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="14" fill="rgba(255,255,255,0.5)" letter-spacing="2">RISK FACTORS</text>
+
+  <!-- 分割线 -->
+  <rect x="60" y="160" width="520" height="2" fill="rgba(230,126,34,0.3)"/>
+
+  <!-- 风险 1 - 应收账款压力增大 -->
+  <rect x="60" y="200" width="520" height="120" rx="8" fill="rgba(255,255,255,0.06)"/>
+  <rect x="60" y="200" width="4" height="120" rx="2" fill="#E67E22"/>
+
+  <use href="#icon-tabler-outline-trending-down" x="88" y="226" width="24" height="24" fill="#E67E22"/>
+
+  <text x="128" y="238" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#FFFFFF" font-weight="600">应收账款压力增大</text>
+  <text x="88" y="272" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="15" fill="rgba(255,255,255,0.75)">
+    <tspan x="88" dy="0">应收账款周转天数同比上升15%，</tspan>
+    <tspan x="88" dy="24">回款周期延长，资金占用加剧。</tspan>
+  </text>
+
+  <!-- 风险 2 - 经营现金流波动 -->
+  <rect x="60" y="340" width="520" height="120" rx="8" fill="rgba(255,255,255,0.06)"/>
+  <rect x="60" y="340" width="4" height="120" rx="2" fill="#E67E22"/>
+
+  <use href="#icon-tabler-outline-trending-down" x="88" y="366" width="24" height="24" fill="#E67E22"/>
+
+  <text x="128" y="378" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#FFFFFF" font-weight="600">经营现金流波动</text>
+  <text x="88" y="412" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="15" fill="rgba(255,255,255,0.75)">
+    <tspan x="88" dy="0">经营性现金流净额季度波动达±35%，</tspan>
+    <tspan x="88" dy="24">短期偿债能力面临一定挑战。</tspan>
+  </text>
+
+  <!-- 风险 3 - 毛利率承压 -->
+  <rect x="60" y="480" width="520" height="120" rx="8" fill="rgba(255,255,255,0.06)"/>
+  <rect x="60" y="480" width="4" height="120" rx="2" fill="#E67E22"/>
+
+  <use href="#icon-tabler-outline-trending-down" x="88" y="506" width="24" height="24" fill="#E67E22"/>
+
+  <text x="128" y="518" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#FFFFFF" font-weight="600">毛利率承压</text>
+  <text x="88" y="552" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="15" fill="rgba(255,255,255,0.75)">
+    <tspan x="88" dy="0">原材料成本上涨及竞争加剧，</tspan>
+    <tspan x="88" dy="24">毛利率同比下滑约2.3个百分点。</tspan>
+  </text>
+
+  <!-- 底部装饰点 -->
+  <circle cx="320" cy="670" r="3" fill="rgba(230,126,34,0.3)"/>
+  <circle cx="340" cy="670" r="3" fill="rgba(230,126,34,0.2)"/>
+  <circle cx="360" cy="670" r="3" fill="rgba(230,126,34,0.1)"/>
+
+
+  <!-- ===== 右侧 — 机遇 (浅色背景) ===== -->
+  <rect x="640" y="0" width="640" height="720" fill="#FFFFFF"/>
+
+  <!-- 右侧顶部装饰线 -->
+  <rect x="640" y="0" width="640" height="8" fill="#E67E22"/>
+
+  <!-- 右侧顶部区域 -->
+  <rect x="700" y="80" width="48" height="48" rx="24" fill="rgba(230,126,34,0.12)"/>
+  <use href="#icon-tabler-outline-trending-up" x="712" y="92" width="24" height="24" fill="#E67E22"/>
+
+  <text x="764" y="112" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="28" fill="#333333" font-weight="600">机遇</text>
+  <text x="764" y="136" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="14" fill="rgba(51,51,51,0.4)" letter-spacing="2">OPPORTUNITIES</text>
+
+  <!-- 分割线 -->
+  <rect x="700" y="160" width="520" height="2" fill="rgba(230,126,34,0.2)"/>
+
+  <!-- 机遇 1 - 海外市场拓展 -->
+  <rect x="700" y="200" width="520" height="120" rx="8" fill="#F5F5F5"/>
+  <rect x="700" y="200" width="4" height="120" rx="2" fill="#E67E22"/>
+
+  <use href="#icon-tabler-outline-trending-up" x="728" y="226" width="24" height="24" fill="#E67E22"/>
+
+  <text x="768" y="238" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#333333" font-weight="600">海外市场拓展</text>
+  <text x="728" y="272" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="15" fill="rgba(51,51,51,0.7)">
+    <tspan x="728" dy="0">东南亚及中东新兴市场需求旺盛，</tspan>
+    <tspan x="728" dy="24">海外营收同比增长32%，增长空间广阔。</tspan>
+  </text>
+
+  <!-- 机遇 2 - 产品结构升级 -->
+  <rect x="700" y="340" width="520" height="120" rx="8" fill="#F5F5F5"/>
+  <rect x="700" y="340" width="4" height="120" rx="2" fill="#E67E22"/>
+
+  <use href="#icon-tabler-outline-trending-up" x="728" y="366" width="24" height="24" fill="#E67E22"/>
+
+  <text x="768" y="378" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#333333" font-weight="600">产品结构升级</text>
+  <text x="728" y="412" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="15" fill="rgba(51,51,51,0.7)">
+    <tspan x="728" dy="0">高附加值产品占比持续提升，</tspan>
+    <tspan x="728" dy="24">新品类毛利率较传统产品高出8-12个百分点。</tspan>
+  </text>
+
+  <!-- 机遇 3 - 数字化降本增效 -->
+  <rect x="700" y="480" width="520" height="120" rx="8" fill="#F5F5F5"/>
+  <rect x="700" y="480" width="4" height="120" rx="2" fill="#E67E22"/>
+
+  <use href="#icon-tabler-outline-trending-up" x="728" y="506" width="24" height="24" fill="#E67E22"/>
+
+  <text x="768" y="518" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#333333" font-weight="600">数字化降本增效</text>
+  <text x="728" y="552" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="15" fill="rgba(51,51,51,0.7)">
+    <tspan x="728" dy="0">智能制造与数字化供应链投入初见成效，</tspan>
+    <tspan x="728" dy="24">预计未来两年运营成本可降低约15%。</tspan>
+  </text>
+
+  <!-- 底部装饰点 -->
+  <circle cx="960" cy="670" r="3" fill="rgba(230,126,34,0.25)"/>
+  <circle cx="980" cy="670" r="3" fill="rgba(230,126,34,0.15)"/>
+  <circle cx="1000" cy="670" r="3" fill="rgba(230,126,34,0.08)"/>
+
+
+  <!-- ===== 中央标题区域（跨屏） ===== -->
+  <rect x="440" y="310" width="400" height="100" rx="50" fill="#E67E22"/>
+  <text x="640" y="358" font-family="'Montserrat Bold','Microsoft YaHei',sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="700" letter-spacing="1">关键风险与机遇</text>
+  <text x="640" y="390" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle" letter-spacing="4">关键风险与机遇</text>
+
+  <!-- 从标题到两侧的连接线 -->
+  <line x1="440" y1="360" x2="300" y2="360" stroke="rgba(230,126,34,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="840" y1="360" x2="980" y2="360" stroke="rgba(230,126,34,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- 页面底部页码 -->
+  <text x="640" y="700" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="12" fill="rgba(51,51,51,0.3)" text-anchor="middle">04 / 05</text>
+</svg>

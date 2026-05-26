@@ -1,0 +1,9 @@
+name: code-reviewer
+description: AI-powered code review with best practices, security checks, and style suggestions.
+version: 0.1.0
+entrypoint: skills.code_reviewer.adapter:CodeReviewerSkill
+requires:
+  - llm
+  - filesystem
+  - artifacts
+icon: code-2

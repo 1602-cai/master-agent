@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F1B3D" />
+      <stop offset="40%" stop-color="#1A2D5C" />
+      <stop offset="100%" stop-color="#2D4A7A" />
+    </linearGradient>
+    
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#0077B6" />
+    </linearGradient>
+    <linearGradient id="accentGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#48CAE4" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#48CAE4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#90E0EF" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#48CAE4" />
+      <stop offset="100%" stop-color="#0077B6" />
+    </linearGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#bgGrad)" />
+
+  
+  <circle cx="1100" cy="80" r="180" fill="#48CAE4" opacity="0.04" />
+  <circle cx="1180" cy="20" r="120" fill="#00B4D8" opacity="0.06" />
+  
+  
+  <circle cx="-80" cy="650" r="250" fill="#0077B6" opacity="0.05" />
+  <circle cx="200" cy="780" r="200" fill="#48CAE4" opacity="0.03" />
+
+  
+  <rect x="0" y="0" width="1280" height="4" fill="url(#accentGrad)" />
+
+  
+  <rect x="0" y="0" width="6" height="720" fill="url(#accentGrad)" opacity="0.6" />
+
+  
+  <ellipse cx="200" cy="100" rx="300" ry="200" fill="#48CAE4" opacity="0.05" filter="url(#softGlow)" />
+
+  
+  <ellipse cx="1100" cy="600" rx="250" ry="180" fill="#0077B6" opacity="0.06" filter="url(#softGlow)" />
+
+  
+
+  
+  <text x="80" y="140" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="18" fill="#90E0EF" letter-spacing="3" opacity="0.9">
+    <tspan>尊敬的各位评委、老师，大家好</tspan>
+  </text>
+
+  
+  <path fill="#48CAE4" d="M81.50,160 H118.50 A1.50,1.50 0 0 1 120,161.50 V161.50 A1.50,1.50 0 0 1 118.50,163 H81.50 A1.50,1.50 0 0 1 80,161.50 V161.50 A1.50,1.50 0 0 1 81.50,160 Z" />
+
+  
+  <text x="80" y="210" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="22" fill="#CAF0F8" letter-spacing="3" opacity="0.85">
+    <tspan>一家守护出行安全的企业，盈利质量究竟如何？</tspan>
+  </text>
+
+  
+  <text x="80" y="320" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="56" fill="url(#titleGrad)" font-weight="bold" letter-spacing="6">
+    <tspan>锐明技术</tspan>
+  </text>
+
+  
+  
+  <g transform="translate(80.0, 350.0) scale(1.5)" fill="#48CAE4">
+    <path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+
+  
+  <text x="80" y="430" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="28" fill="#90E0EF" letter-spacing="5" font-weight="300">
+    <tspan>盈利质量分析</tspan>
+  </text>
+
+  
+  <text x="80" y="470" font-family="'Arial','Microsoft YaHei',sans-serif" font-size="14" fill="#48CAE4" letter-spacing="4" opacity="0.5" font-weight="300">
+    <tspan>Profit Quality Analysis</tspan>
+  </text>
+
+  
+  <text x="80" y="530" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="18" fill="#CAF0F8" letter-spacing="4" opacity="0.8">
+    <tspan>从四个维度看利润的"含金量"</tspan>
+  </text>
+
+  
+  <path fill="none" stroke="#48CAE4" stroke-width="1" opacity="0.5" d="M94,565 H156 A14,14 0 0 1 170,579 V579 A14,14 0 0 1 156,593 H94 A14,14 0 0 1 80,579 V579 A14,14 0 0 1 94,565 Z" />
+  <text x="125" y="584" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="12" fill="#48CAE4" text-anchor="middle" letter-spacing="2" opacity="0.7">
+    <tspan>盈利能力</tspan>
+  </text>
+
+  <path fill="none" stroke="#48CAE4" stroke-width="1" opacity="0.5" d="M199,565 H261 A14,14 0 0 1 275,579 V579 A14,14 0 0 1 261,593 H199 A14,14 0 0 1 185,579 V579 A14,14 0 0 1 199,565 Z" />
+  <text x="230" y="584" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="12" fill="#48CAE4" text-anchor="middle" letter-spacing="2" opacity="0.7">
+    <tspan>现金流</tspan>
+  </text>
+
+  <path fill="none" stroke="#48CAE4" stroke-width="1" opacity="0.5" d="M304,565 H366 A14,14 0 0 1 380,579 V579 A14,14 0 0 1 366,593 H304 A14,14 0 0 1 290,579 V579 A14,14 0 0 1 304,565 Z" />
+  <text x="335" y="584" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="12" fill="#48CAE4" text-anchor="middle" letter-spacing="2" opacity="0.7">
+    <tspan>资产质量</tspan>
+  </text>
+
+  <path fill="none" stroke="#48CAE4" stroke-width="1" opacity="0.5" d="M409,565 H471 A14,14 0 0 1 485,579 V579 A14,14 0 0 1 471,593 H409 A14,14 0 0 1 395,579 V579 A14,14 0 0 1 409,565 Z" />
+  <text x="440" y="584" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="12" fill="#48CAE4" text-anchor="middle" letter-spacing="2" opacity="0.7">
+    <tspan>成长性</tspan>
+  </text>
+
+  
+  <line x1="520" y1="80" x2="520" y2="640" stroke="#48CAE4" stroke-width="0.5" opacity="0.15" />
+
+  
+
+  
+  <text x="1180" y="200" font-family="'Arial',sans-serif" font-size="180" fill="#48CAE4" opacity="0.04" font-weight="bold" text-anchor="end">
+    <tspan>RQ</tspan>
+  </text>
+  <text x="1180" y="310" font-family="'Arial',sans-serif" font-size="60" fill="#00B4D8" opacity="0.06" font-weight="bold" text-anchor="end" letter-spacing="8">
+    <tspan>ANALYSIS</tspan>
+  </text>
+
+  
+  <g transform="translate(850, 200)" opacity="0.12">
+    
+  <g transform="translate(0.0, 0.0) scale(5.0)" fill="#48CAE4">
+    <path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  </g>
+
+  
+  <circle cx="920" cy="260" r="100" fill="none" stroke="#48CAE4" stroke-width="1" opacity="0.08" />
+  <circle cx="920" cy="260" r="80" fill="none" stroke="#48CAE4" stroke-width="0.5" opacity="0.06" />
+  <circle cx="920" cy="260" r="120" fill="none" stroke="#48CAE4" stroke-width="0.5" opacity="0.05" />
+
+  
+  <circle cx="750" cy="180" r="3" fill="#48CAE4" opacity="0.15" />
+  <circle cx="820" cy="150" r="2" fill="#48CAE4" opacity="0.1" />
+  <circle cx="1050" cy="380" r="3" fill="#48CAE4" opacity="0.12" />
+  <circle cx="980" cy="420" r="2" fill="#48CAE4" opacity="0.08" />
+
+  
+  <polyline points="750,480 850,460 920,470 1000,440 1080,450" fill="none" stroke="#48CAE4" stroke-width="1.5" opacity="0.1" />
+
+  
+  <rect x="0" y="680" width="1280" height="40" fill="#0A1329" opacity="0.5" />
+  
+  
+  <path fill="#48CAE4" d="M81.50,680 H128.50 A1.50,1.50 0 0 1 130,681.50 V681.50 A1.50,1.50 0 0 1 128.50,683 H81.50 A1.50,1.50 0 0 1 80,681.50 V681.50 A1.50,1.50 0 0 1 81.50,680 Z" />
+
+  
+  <text x="80" y="705" font-family="'PingFang SC','Microsoft YaHei','SimHei',sans-serif" font-size="14" fill="#90E0EF" letter-spacing="3" opacity="0.6">
+    <tspan>数据分析小组 · 财务分析报告</tspan>
+  </text>
+
+  <text x="1180" y="705" font-family="'Arial','Microsoft YaHei',sans-serif" font-size="12" fill="#48CAE4" letter-spacing="2" text-anchor="end" opacity="0.4">
+    <tspan>P01</tspan>
+  </text>
+
+  
+  <rect x="1200" y="700" width="20" height="1" fill="#48CAE4" opacity="0.2" />
+</svg>

@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0FAFF" />
+      <stop offset="100%" stop-color="#E3F5FD" />
+    </linearGradient>
+    <linearGradient id="leftCardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0077B6" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+    <linearGradient id="rightCardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#48CAE4" />
+    </linearGradient>
+    <linearGradient id="tabGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0077B6" />
+      <stop offset="100%" stop-color="#48CAE4" />
+    </linearGradient>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#0077B6" flood-opacity="0.12" />
+    </filter>
+    <filter id="cardShadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0077B6" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGrad)" />
+
+  
+  <rect x="0" y="0" width="1280" height="4" fill="url(#tabGrad)" />
+
+  
+  <rect x="0" y="16" width="1280" height="72" fill="#FFFFFF" opacity="0.8" />
+  <rect x="0" y="16" width="1280" height="72" fill="#FFFFFF" opacity="0.5" />
+
+  
+  <path fill="#0077B6" d="M56,38 H56 A16,16 0 0 1 72,54 V54 A16,16 0 0 1 56,70 H56 A16,16 0 0 1 40,54 V54 A16,16 0 0 1 56,38 Z" />
+  <text x="56" y="59" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">3</text>
+
+  
+  <text x="88" y="62" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold">四维度财务分析</text>
+  <text x="272" y="62" fill="#48CAE4" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="16" font-weight="bold">|</text>
+  <text x="286" y="62" fill="#555555" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="16">现金保障性 · 持续性</text>
+
+  
+  <circle cx="1210" cy="50" r="24" fill="#90E0EF" opacity="0.3" />
+  <circle cx="1230" cy="56" r="16" fill="#48CAE4" opacity="0.2" />
+  <circle cx="1245" cy="44" r="10" fill="#0077B6" opacity="0.15" />
+
+  
+  <line x1="40" y1="100" x2="1240" y2="100" stroke="#B8D8E8" stroke-width="1" stroke-dasharray="4,3" />
+
+  
+  
+  <path fill="#FFFFFF" filter="url(#shadow)" d="M54,120 H606 A14,14 0 0 1 620,134 V676 A14,14 0 0 1 606,690 H54 A14,14 0 0 1 40,676 V134 A14,14 0 0 1 54,120 Z" />
+
+  
+  <path fill="url(#leftCardGrad)" d="M54,120 H606 A14,14 0 0 1 620,134 V166 A14,14 0 0 1 606,180 H54 A14,14 0 0 1 40,166 V134 A14,14 0 0 1 54,120 Z" />
+  <rect x="40" y="166" width="580" height="14" fill="url(#leftCardGrad)" />
+
+  
+  <g transform="translate(66.0, 136.0) scale(1.1666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+    <path d="M12.25 18h-7.25a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4.5" />
+    <path d="M18 12h.01" />
+    <path d="M6 12h.01" />
+    <path d="M16 19h6" />
+    <path d="M19 16v6" />
+  </g>
+  <text x="108" y="157" fill="#FFFFFF" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold">维度一：现金保障性</text>
+
+  
+  <path fill="#F0FAFF" stroke="#90E0EF" stroke-width="1" d="M72,198 H588 A10,10 0 0 1 598,208 V276 A10,10 0 0 1 588,286 H72 A10,10 0 0 1 62,276 V208 A10,10 0 0 1 72,198 Z" />
+  <text x="80" y="222" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">核心问题</text>
+  <text x="80" y="248" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14">经营活动现金流净额持续为负，净利润为正但现金流为负</text>
+  <text x="80" y="272" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14">→ 利润"含金量"低，盈利质量存疑</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)" d="M72,302 H308 A10,10 0 0 1 318,312 V432 A10,10 0 0 1 308,442 H72 A10,10 0 0 1 62,432 V312 A10,10 0 0 1 72,302 Z" />
+  <path fill="#90E0EF" opacity="0.4" d="M72,302 H308 A10,10 0 0 1 318,312 V328 A10,10 0 0 1 308,338 H72 A10,10 0 0 1 62,328 V312 A10,10 0 0 1 72,302 Z" />
+  <rect x="62" y="328" width="256" height="10" fill="#90E0EF" opacity="0.4" />
+  
+  <g transform="translate(78.0, 310.0) scale(0.8333333333333334)" fill="none" stroke="#FF6B6B" stroke-width="2">
+    <path d="M3 7l6 6l4 -4l8 8" />
+    <path d="M21 10l0 7l-7 0" />
+  </g>
+  <text x="108" y="326" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">收现比</text>
+
+  <text x="80" y="362" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">指标含义</text>
+  <text x="80" y="382" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">销售商品、提供劳务收到的现金 / 营业收入</text>
+  <text x="80" y="410" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">&lt; 1.0</text>
+  <text x="130" y="410" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">→ 收入未形成实际现金流入</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)" d="M348,302 H588 A10,10 0 0 1 598,312 V432 A10,10 0 0 1 588,442 H348 A10,10 0 0 1 338,432 V312 A10,10 0 0 1 348,302 Z" />
+  <path fill="#90E0EF" opacity="0.4" d="M348,302 H588 A10,10 0 0 1 598,312 V328 A10,10 0 0 1 588,338 H348 A10,10 0 0 1 338,328 V312 A10,10 0 0 1 348,302 Z" />
+  <rect x="338" y="328" width="260" height="10" fill="#90E0EF" opacity="0.4" />
+  
+  <g transform="translate(354.0, 310.0) scale(0.8333333333333334)" fill="none" stroke="#FF6B6B" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+  <text x="384" y="326" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">净现比</text>
+
+  <text x="356" y="362" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">指标含义</text>
+  <text x="356" y="382" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">经营活动现金流净额 / 净利润</text>
+  <text x="356" y="410" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">为负</text>
+  <text x="420" y="410" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">→ 净利润无现金支撑</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)" d="M72,458 H588 A10,10 0 0 1 598,468 V548 A10,10 0 0 1 588,558 H72 A10,10 0 0 1 62,548 V468 A10,10 0 0 1 72,458 Z" />
+  <text x="80" y="482" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">净利润 vs 经营活动现金流净额</text>
+
+  
+  <text x="120" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2021</text>
+  <text x="240" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2022</text>
+  <text x="360" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2023</text>
+  <text x="480" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2024</text>
+
+  
+  <path fill="#48CAE4" opacity="0.8" d="M108,512 H132 A3,3 0 0 1 135,515 V537 A3,3 0 0 1 132,540 H108 A3,3 0 0 1 105,537 V515 A3,3 0 0 1 108,512 Z" />
+  <text x="120" y="508" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+  <path fill="#48CAE4" opacity="0.8" d="M228,515 H252 A3,3 0 0 1 255,518 V537 A3,3 0 0 1 252,540 H228 A3,3 0 0 1 225,537 V518 A3,3 0 0 1 228,515 Z" />
+  <text x="240" y="511" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+  <path fill="#48CAE4" opacity="0.8" d="M348,510 H372 A3,3 0 0 1 375,513 V537 A3,3 0 0 1 372,540 H348 A3,3 0 0 1 345,537 V513 A3,3 0 0 1 348,510 Z" />
+  <text x="360" y="506" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+  <path fill="#48CAE4" opacity="0.8" d="M468,513 H492 A3,3 0 0 1 495,516 V537 A3,3 0 0 1 492,540 H468 A3,3 0 0 1 465,537 V516 A3,3 0 0 1 468,513 Z" />
+  <text x="480" y="509" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+
+  
+  <path fill="#FF6B6B" opacity="0.8" d="M143,525 H167 A3,3 0 0 1 170,528 V537 A3,3 0 0 1 167,540 H143 A3,3 0 0 1 140,537 V528 A3,3 0 0 1 143,525 Z" />
+  <text x="155" y="508" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+  <path fill="#FF6B6B" opacity="0.8" d="M263,528 H287 A3,3 0 0 1 290,531 V537 A3,3 0 0 1 287,540 H263 A3,3 0 0 1 260,537 V531 A3,3 0 0 1 263,528 Z" />
+  <text x="275" y="511" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+  <path fill="#FF6B6B" opacity="0.8" d="M383,522 H407 A3,3 0 0 1 410,525 V537 A3,3 0 0 1 407,540 H383 A3,3 0 0 1 380,537 V525 A3,3 0 0 1 383,522 Z" />
+  <text x="395" y="506" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+  <path fill="#FF6B6B" opacity="0.8" d="M503,526 H527 A3,3 0 0 1 530,529 V537 A3,3 0 0 1 527,540 H503 A3,3 0 0 1 500,537 V529 A3,3 0 0 1 503,526 Z" />
+  <text x="515" y="509" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+
+  
+  <path fill="#48CAE4" opacity="0.8" d="M82,540 H88 A2,2 0 0 1 90,542 V548 A2,2 0 0 1 88,550 H82 A2,2 0 0 1 80,548 V542 A2,2 0 0 1 82,540 Z" />
+  <text x="94" y="549" fill="#888888" font-family="Arial, sans-serif" font-size="10">净利润</text>
+  <path fill="#FF6B6B" opacity="0.8" d="M147,540 H153 A2,2 0 0 1 155,542 V548 A2,2 0 0 1 153,550 H147 A2,2 0 0 1 145,548 V542 A2,2 0 0 1 147,540 Z" />
+  <text x="159" y="549" fill="#888888" font-family="Arial, sans-serif" font-size="10">经营现金流</text>
+
+  
+  <path fill="#FFF5F5" stroke="#FFB0B0" stroke-width="1" d="M72,574 H588 A10,10 0 0 1 598,584 V664 A10,10 0 0 1 588,674 H72 A10,10 0 0 1 62,664 V584 A10,10 0 0 1 72,574 Z" />
+  
+  <g transform="translate(80.0, 588.0) scale(0.8333333333333334)" fill="#FF6B6B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="110" y="604" fill="#D63031" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">分析结论</text>
+  <text x="80" y="630" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">• 公司净利润连续多年为正，但经营活动现金流持续为负</text>
+  <text x="80" y="652" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">• 收现比 &lt; 1、净现比为负，盈利的现金保障性严重不足</text>
+  <text x="80" y="674" fill="#D63031" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">→ 盈利的现金保障性不足 ⚠️</text>
+
+  
+  <path fill="#FFFFFF" filter="url(#shadow)" d="M674,120 H1226 A14,14 0 0 1 1240,134 V676 A14,14 0 0 1 1226,690 H674 A14,14 0 0 1 660,676 V134 A14,14 0 0 1 674,120 Z" />
+
+  
+  <path fill="url(#rightCardGrad)" d="M674,120 H1226 A14,14 0 0 1 1240,134 V166 A14,14 0 0 1 1226,180 H674 A14,14 0 0 1 660,166 V134 A14,14 0 0 1 674,120 Z" />
+  <rect x="660" y="166" width="580" height="14" fill="url(#rightCardGrad)" />
+
+  
+  <g transform="translate(686.0, 136.0) scale(1.1666666666666667)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+    <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+    <path d="M12 9l0 3" />
+    <path d="M12 15l.01 0" />
+  </g>
+  <text x="728" y="157" fill="#FFFFFF" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold">维度二：持续性</text>
+
+  
+  <path fill="#F0FAFF" stroke="#90E0EF" stroke-width="1" d="M692,198 H1208 A10,10 0 0 1 1218,208 V276 A10,10 0 0 1 1208,286 H692 A10,10 0 0 1 682,276 V208 A10,10 0 0 1 692,198 Z" />
+  <text x="700" y="222" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">核心观察维度</text>
+  <text x="700" y="248" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14">评估公司盈利来源是否稳定、是否可持续</text>
+  <text x="700" y="272" fill="#555555" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">关注核心业务收入增长趋势、营收质量与依赖度</text>
+
+  
+  
+  <path fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)" d="M692,302 H842 A10,10 0 0 1 852,312 V462 A10,10 0 0 1 842,472 H692 A10,10 0 0 1 682,462 V312 A10,10 0 0 1 692,302 Z" />
+  <path fill="#90E0EF" opacity="0.3" d="M692,302 H842 A10,10 0 0 1 852,312 V334 A10,10 0 0 1 842,344 H692 A10,10 0 0 1 682,334 V312 A10,10 0 0 1 692,302 Z" />
+  <rect x="682" y="334" width="170" height="10" fill="#90E0EF" opacity="0.3" />
+  
+  <g transform="translate(720.0, 312.0) scale(1.25)" fill="#0077B6">
+    <path d="M10 3L9.00001 4L11.2929 6.29289L8.50001 9.08579L5.50001 6.08579L0.292908 11.2929L1.70712 12.7071L5.50001 8.91421L8.50001 11.9142L12.7071 7.70711L15 10L16 9L16 3H10Z" />
+  </g>
+  <text x="750" y="329" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">收入增长</text>
+
+  <text x="700" y="366" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">营业收入增长率</text>
+  <text x="700" y="388" fill="#0077B6" font-family="Arial, sans-serif" font-size="20" font-weight="bold">-12.3%</text>
+  <text x="780" y="388" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">↓</text>
+  <text x="700" y="412" fill="#888888" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">连续两年负增长</text>
+  <text x="700" y="432" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" font-weight="bold">趋势偏弱</text>
+  <path fill="#FF6B6B" d="M702,444 H728 A2,2 0 0 1 730,446 V446 A2,2 0 0 1 728,448 H702 A2,2 0 0 1 700,446 V446 A2,2 0 0 1 702,444 Z" />
+  <path fill="#FFB0B0" d="M736,444 H762 A2,2 0 0 1 764,446 V446 A2,2 0 0 1 762,448 H736 A2,2 0 0 1 734,446 V446 A2,2 0 0 1 736,444 Z" />
+  <path fill="#B8D8E8" d="M770,444 H796 A2,2 0 0 1 798,446 V446 A2,2 0 0 1 796,448 H770 A2,2 0 0 1 768,446 V446 A2,2 0 0 1 770,444 Z" />
+
+  
+  <path fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)" d="M876,302 H1026 A10,10 0 0 1 1036,312 V462 A10,10 0 0 1 1026,472 H876 A10,10 0 0 1 866,462 V312 A10,10 0 0 1 876,302 Z" />
+  <path fill="#90E0EF" opacity="0.3" d="M876,302 H1026 A10,10 0 0 1 1036,312 V334 A10,10 0 0 1 1026,344 H876 A10,10 0 0 1 866,334 V312 A10,10 0 0 1 876,302 Z" />
+  <rect x="866" y="334" width="170" height="10" fill="#90E0EF" opacity="0.3" />
+  
+  <g transform="translate(904.0, 312.0) scale(0.8333333333333334)" fill="#0077B6">
+    <path d="M12.01 2.011a3.2 3.2 0 0 1 2.113 .797l.154 .145l.698 .698a1.2 1.2 0 0 0 .71 .341l.135 .008h1a3.2 3.2 0 0 1 3.195 3.018l.005 .182v1c0 .27 .092 .533 .258 .743l.09 .1l.697 .698a3.2 3.2 0 0 1 .147 4.382l-.145 .154l-.698 .698a1.2 1.2 0 0 0 -.341 .71l-.008 .135v1a3.2 3.2 0 0 1 -3.018 3.195l-.182 .005h-1a1.2 1.2 0 0 0 -.743 .258l-.1 .09l-.698 .697a3.2 3.2 0 0 1 -4.382 .147l-.154 -.145l-.698 -.698a1.2 1.2 0 0 0 -.71 -.341l-.135 -.008h-1a3.2 3.2 0 0 1 -3.195 -3.018l-.005 -.182v-1a1.2 1.2 0 0 0 -.258 -.743l-.09 -.1l-.697 -.698a3.2 3.2 0 0 1 -.147 -4.382l.145 -.154l.698 -.698a1.2 1.2 0 0 0 .341 -.71l.008 -.135v-1l.005 -.182a3.2 3.2 0 0 1 3.013 -3.013l.182 -.005h1a1.2 1.2 0 0 0 .743 -.258l.1 -.09l.698 -.697a3.2 3.2 0 0 1 2.269 -.944zm3.697 7.282a1 1 0 0 0 -1.414 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="934" y="329" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">营收质量</text>
+
+  <text x="884" y="366" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">主营业务收入占比</text>
+  <text x="884" y="388" fill="#0077B6" font-family="Arial, sans-serif" font-size="20" font-weight="bold">100%</text>
+  <text x="700" y="412" fill="#888888" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">收入来源单一</text>
+  <text x="884" y="432" fill="#FFA500" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" font-weight="bold">过度集中</text>
+  <path fill="#FFA500" d="M886,444 H912 A2,2 0 0 1 914,446 V446 A2,2 0 0 1 912,448 H886 A2,2 0 0 1 884,446 V446 A2,2 0 0 1 886,444 Z" />
+  <path fill="#FFB0B0" d="M920,444 H946 A2,2 0 0 1 948,446 V446 A2,2 0 0 1 946,448 H920 A2,2 0 0 1 918,446 V446 A2,2 0 0 1 920,444 Z" />
+  <path fill="#B8D8E8" d="M954,444 H980 A2,2 0 0 1 982,446 V446 A2,2 0 0 1 980,448 H954 A2,2 0 0 1 952,446 V446 A2,2 0 0 1 954,444 Z" />
+
+  
+  <path fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)" d="M1060,302 H1208 A10,10 0 0 1 1218,312 V462 A10,10 0 0 1 1208,472 H1060 A10,10 0 0 1 1050,462 V312 A10,10 0 0 1 1060,302 Z" />
+  <path fill="#90E0EF" opacity="0.3" d="M1060,302 H1208 A10,10 0 0 1 1218,312 V334 A10,10 0 0 1 1208,344 H1060 A10,10 0 0 1 1050,334 V312 A10,10 0 0 1 1060,302 Z" />
+  <rect x="1050" y="334" width="168" height="10" fill="#90E0EF" opacity="0.3" />
+  
+  <g transform="translate(1086.0, 312.0) scale(0.8333333333333334)" fill="none" stroke="#0077B6" stroke-width="2">
+    <path d="M15 11v.01" />
+    <path d="M5.173 8.378a3 3 0 1 1 4.656 -1.377" />
+    <path d="M16 4v3.803a6.019 6.019 0 0 1 2.658 3.197h1.341a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1.342c-.336 .95 -.907 1.8 -1.658 2.473v2.027a1.5 1.5 0 0 1 -3 0v-.583a6.04 6.04 0 0 1 -1 .083h-4a6.04 6.04 0 0 1 -1 -.083v.583a1.5 1.5 0 0 1 -3 0v-2l0 -.027a6 6 0 0 1 4 -10.473h2.5l4.5 -3" />
+  </g>
+  <text x="1116" y="329" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">核心利润</text>
+
+  <text x="1068" y="366" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">扣非净利润占比</text>
+  <text x="1068" y="388" fill="#0077B6" font-family="Arial, sans-serif" font-size="20" font-weight="bold">82%</text>
+  <text x="1068" y="412" fill="#888888" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">依赖非经常性损益</text>
+  <text x="1068" y="432" fill="#FFA500" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" font-weight="bold">需关注</text>
+  <path fill="#FFA500" d="M1070,444 H1096 A2,2 0 0 1 1098,446 V446 A2,2 0 0 1 1096,448 H1070 A2,2 0 0 1 1068,446 V446 A2,2 0 0 1 1070,444 Z" />
+  <path fill="#FFB0B0" d="M1104,444 H1130 A2,2 0 0 1 1132,446 V446 A2,2 0 0 1 1130,448 H1104 A2,2 0 0 1 1102,446 V446 A2,2 0 0 1 1104,444 Z" />
+  <path fill="#B8D8E8" d="M1138,444 H1164 A2,2 0 0 1 1166,446 V446 A2,2 0 0 1 1164,448 H1138 A2,2 0 0 1 1136,446 V446 A2,2 0 0 1 1138,444 Z" />
+
+  
+  <path fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)" d="M692,488 H1208 A10,10 0 0 1 1218,498 V568 A10,10 0 0 1 1208,578 H692 A10,10 0 0 1 682,568 V498 A10,10 0 0 1 692,488 Z" />
+  <text x="700" y="514" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">趋势判断</text>
+
+  <circle cx="720" cy="540" r="6" fill="#FF6B6B" />
+  <text x="735" y="544" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">收入连续下滑，主业增长乏力</text>
+
+  <circle cx="720" cy="562" r="6" fill="#FFA500" />
+  <text x="735" y="566" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">营收结构过度集中，抗风险能力不足</text>
+
+  
+  <path fill="#FFF8F0" stroke="#FFD7A5" stroke-width="1" d="M692,594 H1208 A10,10 0 0 1 1218,604 V664 A10,10 0 0 1 1208,674 H692 A10,10 0 0 1 682,664 V604 A10,10 0 0 1 692,594 Z" />
+  
+  <g transform="translate(700.0, 610.0) scale(0.8333333333333334)" fill="none" stroke="#FFA500" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+    <path d="M12 9h.01" />
+    <path d="M11 12h1v4h1" />
+  </g>
+  <text x="730" y="625" fill="#E67E00" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">初步判断</text>
+  <text x="700" y="650" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">持续性存在隐忧，需进一步结合行业趋势与公司战略深度分析</text>
+  <text x="700" y="668" fill="#E67E00" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">→ 持续性待验证 ⚡</text>
+
+  
+  <text x="640" y="708" text-anchor="middle" fill="#B8D8E8" font-family="Arial, sans-serif" font-size="12">— 03 / 四维度分析 (上) —</text>
+</svg>

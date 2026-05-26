@@ -1,0 +1,9 @@
+name: arxiv-researcher
+description: Search and summarize academic papers from ArXiv, PubMed for research-backed content.
+version: 0.1.0
+entrypoint: skills.arxiv_researcher.adapter:ArxivResearcherSkill
+requires:
+  - llm
+  - web_search
+  - artifacts
+icon: graduation-cap

@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0F7FA" />
+      <stop offset="100%" stop-color="#E8F4F8" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0077B6" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+    <linearGradient id="growthGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F8F5" />
+      <stop offset="100%" stop-color="#D5F5E3" />
+    </linearGradient>
+    <linearGradient id="safetyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EBF5FB" />
+      <stop offset="100%" stop-color="#D6EAF8" />
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#48CAE4" stop-opacity="0" />
+      <stop offset="50%" stop-color="#48CAE4" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#48CAE4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="warningGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E74C3C" />
+      <stop offset="100%" stop-color="#F39C12" />
+    </linearGradient>
+    <linearGradient id="safeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#27AE60" />
+      <stop offset="100%" stop-color="#2ECC71" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#00000020" />
+    </filter>
+    <filter id="softShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000015" />
+    </filter>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGrad)" />
+
+  
+  <rect x="0" y="0" width="1280" height="72" fill="url(#headerGrad)" />
+  <rect x="0" y="72" width="1280" height="4" fill="#48CAE4" opacity="0.4" />
+
+  
+  <path fill="#FFFFFF" opacity="0.2" d="M58,20 H58 A18,18 0 0 1 76,38 V38 A18,18 0 0 1 58,56 H58 A18,18 0 0 1 40,38 V38 A18,18 0 0 1 58,20 Z" />
+  <text x="58" y="44" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+
+  <text x="96" y="44" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">四维度分析（下）</text>
+
+  
+  <text x="96" y="62" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" fill="#90E0EF">成长性 · 安全性</text>
+
+  
+  <text x="1240" y="44" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" opacity="0.7" text-anchor="end">04 / 10</text>
+
+  
+  
+  <path fill="#FFFFFF" filter="url(#cardShadow)" d="M54,100 H604 A14,14 0 0 1 618,114 V666 A14,14 0 0 1 604,680 H54 A14,14 0 0 1 40,666 V114 A14,14 0 0 1 54,100 Z" />
+
+  
+  <path fill="#1ABC9C" opacity="0.12" d="M54,100 H604 A14,14 0 0 1 618,114 V150 A14,14 0 0 1 604,164 H54 A14,14 0 0 1 40,150 V114 A14,14 0 0 1 54,100 Z" />
+  <rect x="40" y="150" width="578" height="14" fill="#1ABC9C" opacity="0.08" />
+
+  
+  
+  <g transform="translate(64.0, 118.0) scale(1.1666666666666667)" fill="none" stroke="#1ABC9C" stroke-width="2">
+    <path d="M18 5l3 3l-3 3" />
+    <path d="M3 18h2.397a5 5 0 0 0 4.096 -2.133l4.014 -5.734a5 5 0 0 1 4.096 -2.133h3.397" />
+  </g>
+  <text x="102" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1ABC9C">成长性</text>
+  <text x="400" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#1ABC9C" opacity="0.6" text-anchor="end">Growth Analysis</text>
+
+  
+  <path fill="#E8F8F5" filter="url(#softShadow)" d="M70,178 H290 A10,10 0 0 1 300,188 V248 A10,10 0 0 1 290,258 H70 A10,10 0 0 1 60,248 V188 A10,10 0 0 1 70,178 Z" />
+  <text x="180" y="202" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#555555" text-anchor="middle">营收增长 (CAGR)</text>
+  <text x="180" y="238" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1ABC9C" text-anchor="middle">+18.6%</text>
+  <text x="180" y="252" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="10" fill="#888888" text-anchor="middle">近3年复合增长率</text>
+
+  
+  <path fill="#FDF2E9" filter="url(#softShadow)" d="M330,178 H588 A10,10 0 0 1 598,188 V248 A10,10 0 0 1 588,258 H330 A10,10 0 0 1 320,248 V188 A10,10 0 0 1 330,178 Z" />
+  <text x="459" y="202" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#555555" text-anchor="middle">利润增长波动</text>
+  
+  <g transform="translate(420.0, 214.0) scale(0.0703125)" fill="#E67E22">
+    <path d="M215.46,216H40.54C27.92,216,20,202.79,26.13,192.09L113.59,40.22c6.3-11,22.52-11,28.82,0l87.46,151.87C236,202.79,228.08,216,215.46,216Z" opacity="0.2" />
+    <path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z" />
+  </g>
+  <text x="459" y="238" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#E67E22" text-anchor="middle">波动剧烈</text>
+  <text x="459" y="252" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="10" fill="#888888" text-anchor="middle">净利润增长率 ±45%</text>
+
+  
+  <path fill="#FDF2E9" stroke="#E67E22" stroke-width="1" stroke-dasharray="4,3" d="M68,272 H590 A8,8 0 0 1 598,280 V326 A8,8 0 0 1 590,334 H68 A8,8 0 0 1 60,326 V280 A8,8 0 0 1 68,272 Z" />
+  
+  <g transform="translate(76.0, 286.0) scale(0.0859375)" fill="#E67E22">
+    <path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2" />
+    <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-80V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,172Z" />
+  </g>
+  <text x="108" y="300" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#E67E22">增收不增利</text>
+  <text x="108" y="320" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" fill="#666666">收入持续增长，但利润增长远落后于营收，盈利能力未见同步提升</text>
+
+  
+  <text x="60" y="360" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333333">成长质量分析</text>
+
+  
+  <path fill="#F8FAFB" d="M68,374 H590 A8,8 0 0 1 598,382 V412 A8,8 0 0 1 590,420 H68 A8,8 0 0 1 60,412 V382 A8,8 0 0 1 68,374 Z" />
+  <text x="80" y="392" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#333333">营收增长率趋势</text>
+  <text x="80" y="410" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">逐年放缓，从+28%降至+12%</text>
+  <path fill="#FADBD8" d="M502,380 H566 A12,12 0 0 1 578,392 V392 A12,12 0 0 1 566,404 H502 A12,12 0 0 1 490,392 V392 A12,12 0 0 1 502,380 Z" />
+  <text x="534" y="396" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E74C3C" text-anchor="middle">增速放缓</text>
+
+  
+  <path fill="#F8FAFB" d="M68,428 H590 A8,8 0 0 1 598,436 V466 A8,8 0 0 1 590,474 H68 A8,8 0 0 1 60,466 V436 A8,8 0 0 1 68,428 Z" />
+  <text x="80" y="446" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#333333">利润质量</text>
+  <text x="80" y="464" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">非经常性损益占比高，核心利润下滑</text>
+  <path fill="#FADBD8" d="M502,434 H566 A12,12 0 0 1 578,446 V446 A12,12 0 0 1 566,458 H502 A12,12 0 0 1 490,446 V446 A12,12 0 0 1 502,434 Z" />
+  <text x="534" y="450" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E74C3C" text-anchor="middle">质量堪忧</text>
+
+  
+  <path fill="#F8FAFB" d="M68,482 H590 A8,8 0 0 1 598,490 V520 A8,8 0 0 1 590,528 H68 A8,8 0 0 1 60,520 V490 A8,8 0 0 1 68,482 Z" />
+  <text x="80" y="500" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#333333">现金流匹配度</text>
+  <text x="80" y="518" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">经营现金流/净利润比值低于 0.6，利润含金量不足</text>
+  <path fill="#FADBD8" d="M502,488 H566 A12,12 0 0 1 578,500 V500 A12,12 0 0 1 566,512 H502 A12,12 0 0 1 490,500 V500 A12,12 0 0 1 502,488 Z" />
+  <text x="534" y="504" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E74C3C" text-anchor="middle">含金量低</text>
+
+  
+  <path fill="#FEF9E7" stroke="#F39C12" stroke-width="1.5" d="M68,542 H590 A8,8 0 0 1 598,550 V588 A8,8 0 0 1 590,596 H68 A8,8 0 0 1 60,588 V550 A8,8 0 0 1 68,542 Z" />
+  
+  <g transform="translate(78.0, 556.0) scale(0.078125)" fill="#F39C12">
+    <path d="M232,128c0,12.51-17.82,21.95-22.68,33.69-4.68,11.32,1.42,30.64-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68c-11.32-4.68-30.65,1.42-39.85-7.78s-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128Z" opacity="0.2" />
+    <path d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.72,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.28,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-11.55,39.29c-4.79,5-9.75,10.17-12.38,16.52-2.52,6.1-2.63,13.07-2.73,19.82-.1,7-.21,14.33-3.32,17.43s-10.39,3.22-17.43,3.32c-6.75.1-13.72.21-19.82,2.73-6.35,2.63-11.52,7.59-16.52,12.38S132,224,128,224s-9.15-4.92-14.11-9.69-10.17-9.75-16.52-12.38c-6.1-2.52-13.07-2.63-19.82-2.73-7-.1-14.33-.21-17.43-3.32s-3.22-10.39-3.32-17.43c-.1-6.75-.21-13.72-2.73-19.82-2.63-6.35-7.59-11.52-12.38-16.52S32,132,32,128s4.92-9.15,9.69-14.11,9.75-10.17,12.38-16.52c2.52-6.1,2.63-13.07,2.73-19.82.1-7,.21-14.33,3.32-17.43S70.51,56.9,77.55,56.8c6.75-.1,13.72-.21,19.82-2.73,6.35-2.63,11.52-7.59,16.52-12.38S124,32,128,32s9.15,4.92,14.11,9.69,10.17,9.75,16.52,12.38c6.1,2.52,13.07,2.63,19.82,2.73,7,.1,14.33.21,17.43,3.32s3.22,10.39,3.32,17.43c.1,6.75.21,13.72,2.73,19.82,2.63,6.35,7.59,11.52,12.38,16.52S224,124,224,128,219.08,137.15,214.31,142.11ZM120,136V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,172Z" />
+  </g>
+  <text x="108" y="558" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#E67E22">结论：成长性表面良好，实质存忧</text>
+  <text x="108" y="580" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">收入增长掩盖了利润质量下滑、现金流不匹配等结构性问题</text>
+
+  
+  <path fill="#ECF0F1" d="M64,604 H594 A4,4 0 0 1 598,608 V608 A4,4 0 0 1 594,612 H64 A4,4 0 0 1 60,608 V608 A4,4 0 0 1 64,604 Z" />
+  <path fill="url(#warningGrad)" d="M64,604 H352 A4,4 0 0 1 356,608 V608 A4,4 0 0 1 352,612 H64 A4,4 0 0 1 60,608 V608 A4,4 0 0 1 64,604 Z" />
+  <text x="60" y="624" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">成长性评分</text>
+  <text x="538" y="624" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#E67E22" text-anchor="end">5.5 / 10</text>
+
+  
+  <rect x="40" y="660" width="578" height="20" rx="0" fill="#1ABC9C" opacity="0.06" />
+  <path fill="#1ABC9C" opacity="0.15" d="M41.50,660 H616.50 A1.50,1.50 0 0 1 618,661.50 V661.50 A1.50,1.50 0 0 1 616.50,663 H41.50 A1.50,1.50 0 0 1 40,661.50 V661.50 A1.50,1.50 0 0 1 41.50,660 Z" />
+
+  
+  <path fill="url(#dividerGrad)" d="M635.50,100 H635.50 A1.50,1.50 0 0 1 637,101.50 V678.50 A1.50,1.50 0 0 1 635.50,680 H635.50 A1.50,1.50 0 0 1 634,678.50 V101.50 A1.50,1.50 0 0 1 635.50,100 Z" />
+
+  
+  
+  <path fill="#FFFFFF" filter="url(#cardShadow)" d="M676,100 H1226 A14,14 0 0 1 1240,114 V666 A14,14 0 0 1 1226,680 H676 A14,14 0 0 1 662,666 V114 A14,14 0 0 1 676,100 Z" />
+
+  
+  <path fill="#3498DB" opacity="0.1" d="M676,100 H1226 A14,14 0 0 1 1240,114 V150 A14,14 0 0 1 1226,164 H676 A14,14 0 0 1 662,150 V114 A14,14 0 0 1 676,100 Z" />
+  <rect x="662" y="150" width="578" height="14" fill="#3498DB" opacity="0.06" />
+
+  
+  
+  <g transform="translate(686.0, 118.0) scale(1.1666666666666667)" fill="#3498DB">
+    <path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="724" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#3498DB">安全性</text>
+  <text x="1202" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#3498DB" opacity="0.6" text-anchor="end">Safety / Security Analysis</text>
+
+  
+  <path fill="#EBF5FB" filter="url(#softShadow)" d="M690,170 H799 A8,8 0 0 1 807,178 V230 A8,8 0 0 1 799,238 H690 A8,8 0 0 1 682,230 V178 A8,8 0 0 1 690,170 Z" />
+  <text x="744" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">资产负债率</text>
+  <text x="744" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">42.3%</text>
+
+  <path fill="#EBF5FB" filter="url(#softShadow)" d="M828,170 H937 A8,8 0 0 1 945,178 V230 A8,8 0 0 1 937,238 H828 A8,8 0 0 1 820,230 V178 A8,8 0 0 1 828,170 Z" />
+  <text x="882" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">流动比率</text>
+  <text x="882" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">2.15</text>
+
+  <path fill="#EBF5FB" filter="url(#softShadow)" d="M966,170 H1075 A8,8 0 0 1 1083,178 V230 A8,8 0 0 1 1075,238 H966 A8,8 0 0 1 958,230 V178 A8,8 0 0 1 966,170 Z" />
+  <text x="1020" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">现金比率</text>
+  <text x="1020" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">0.83</text>
+
+  <path fill="#EBF5FB" filter="url(#softShadow)" d="M1104,170 H1213 A8,8 0 0 1 1221,178 V230 A8,8 0 0 1 1213,238 H1104 A8,8 0 0 1 1096,230 V178 A8,8 0 0 1 1104,170 Z" />
+  <text x="1158" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">利息保障倍数</text>
+  <text x="1158" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">8.5x</text>
+
+  
+  <text x="682" y="270" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333333">关键安全维度评估</text>
+
+  
+  <path fill="#F8FAFB" d="M692,284 H1210 A10,10 0 0 1 1220,294 V356 A10,10 0 0 1 1210,366 H692 A10,10 0 0 1 682,356 V294 A10,10 0 0 1 692,284 Z" />
+  
+  <g transform="translate(700.0, 300.0) scale(0.078125)" fill="#3498DB">
+    <path d="M216,56v58.77c0,84.18-71.31,112.07-85.54,116.8a7.54,7.54,0,0,1-4.92,0C111.31,226.86,40,199,40,114.79V56a8,8,0,0,1,8-8H208A8,8,0,0,1,216,56Z" opacity="0.2" />
+    <path d="M208,40H48A16,16,0,0,0,32,56v58.77c0,89.62,75.82,119.34,91,124.38a15.44,15.44,0,0,0,10,0c15.2-5.05,91-34.77,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.34,104.62-80,109.18-13.53-4.5-80-30.68-80-109.18V56l160,0ZM120,136V96a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm-4,36a12,12,0,1,1,12,12A12,12,0,0,1,116,172Z" />
+  </g>
+  <text x="730" y="314" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">短期偿债能力</text>
+  <text x="730" y="334" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">流动比率 2.15，速动比率 1.52，均处于健康区间</text>
+  <text x="730" y="352" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">短期借款占总负债比例较低，流动性压力小</text>
+  <path fill="#D5F5E3" d="M1143,296 H1189 A11,11 0 0 1 1200,307 V307 A11,11 0 0 1 1189,318 H1143 A11,11 0 0 1 1132,307 V307 A11,11 0 0 1 1143,296 Z" />
+  <text x="1166" y="311" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#27AE60" text-anchor="middle">良好 ✓</text>
+
+  
+  <path fill="#F8FAFB" d="M692,376 H1210 A10,10 0 0 1 1220,386 V448 A10,10 0 0 1 1210,458 H692 A10,10 0 0 1 682,448 V386 A10,10 0 0 1 692,376 Z" />
+  
+  <g transform="translate(700.0, 392.0) scale(0.078125)" fill="#3498DB">
+    <path d="M216,56v58.77c0,84.18-71.31,112.07-85.54,116.8a7.54,7.54,0,0,1-4.92,0C111.31,226.86,40,199,40,114.79V56a8,8,0,0,1,8-8H208A8,8,0,0,1,216,56Z" opacity="0.2" />
+    <path d="M208,40H48A16,16,0,0,0,32,56v58.77c0,89.62,75.82,119.34,91,124.38a15.44,15.44,0,0,0,10,0c15.2-5.05,91-34.77,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.34,104.62-80,109.18-13.53-4.5-80-30.68-80-109.18V56l160,0ZM120,136V96a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm-4,36a12,12,0,1,1,12,12A12,12,0,0,1,116,172Z" />
+  </g>
+  <text x="730" y="406" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">长期偿债能力</text>
+  <text x="730" y="426" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">资产负债率 42.3%，处于行业合理水平</text>
+  <text x="730" y="444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">利息保障倍数 8.5x，偿债能力充足，违约风险低</text>
+  <path fill="#D5F5E3" d="M1143,388 H1189 A11,11 0 0 1 1200,399 V399 A11,11 0 0 1 1189,410 H1143 A11,11 0 0 1 1132,399 V399 A11,11 0 0 1 1143,388 Z" />
+  <text x="1166" y="403" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#27AE60" text-anchor="middle">良好 ✓</text>
+
+  
+  <path fill="#F8FAFB" d="M692,468 H1210 A10,10 0 0 1 1220,478 V540 A10,10 0 0 1 1210,550 H692 A10,10 0 0 1 682,540 V478 A10,10 0 0 1 692,468 Z" />
+  
+  <g transform="translate(700.0, 484.0) scale(0.078125)" fill="#3498DB">
+    <path d="M216,56v58.77c0,84.18-71.31,112.07-85.54,116.8a7.54,7.54,0,0,1-4.92,0C111.31,226.86,40,199,40,114.79V56a8,8,0,0,1,8-8H208A8,8,0,0,1,216,56Z" opacity="0.2" />
+    <path d="M208,40H48A16,16,0,0,0,32,56v58.77c0,89.62,75.82,119.34,91,124.38a15.44,15.44,0,0,0,10,0c15.2-5.05,91-34.77,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.34,104.62-80,109.18-13.53-4.5-80-30.68-80-109.18V56l160,0ZM120,136V96a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm-4,36a12,12,0,1,1,12,12A12,12,0,0,1,116,172Z" />
+  </g>
+  <text x="730" y="498" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">运营资金效率</text>
+  <text x="730" y="518" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">应收账款周转天数逐步缩短，回款效率提升</text>
+  <text x="730" y="536" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">存货周转率稳定，不存在大量积压问题</text>
+  <path fill="#D5F5E3" d="M1143,480 H1189 A11,11 0 0 1 1200,491 V491 A11,11 0 0 1 1189,502 H1143 A11,11 0 0 1 1132,491 V491 A11,11 0 0 1 1143,480 Z" />
+  <text x="1166" y="495" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#27AE60" text-anchor="middle">良好 ✓</text>
+
+  
+  <path fill="#EAFAF1" stroke="#27AE60" stroke-width="1.5" d="M690,564 H1212 A8,8 0 0 1 1220,572 V610 A8,8 0 0 1 1212,618 H690 A8,8 0 0 1 682,610 V572 A8,8 0 0 1 690,564 Z" />
+  
+  <g transform="translate(700.0, 578.0) scale(1.25)" fill="#27AE60">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16L4.35009 13.3929C2.24773 11.8912 1 9.46667 1 6.88306V3L8 0L15 3V6.88306C15 9.46667 13.7523 11.8912 11.6499 13.3929L8 16ZM12.2071 5.70711L10.7929 4.29289L7 8.08579L5.20711 6.29289L3.79289 7.70711L7 10.9142L12.2071 5.70711Z" />
+  </g>
+  <text x="730" y="580" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#27AE60">结论：安全边际充足，财务结构稳健</text>
+  <text x="730" y="602" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">各项偿债指标均处于健康区间，短期和长期均无明显风险敞口</text>
+
+  
+  <path fill="#ECF0F1" d="M686,626 H1216 A4,4 0 0 1 1220,630 V630 A4,4 0 0 1 1216,634 H686 A4,4 0 0 1 682,630 V630 A4,4 0 0 1 686,626 Z" />
+  <path fill="url(#safeGrad)" d="M686,626 H1162 A4,4 0 0 1 1166,630 V630 A4,4 0 0 1 1162,634 H686 A4,4 0 0 1 682,630 V630 A4,4 0 0 1 686,626 Z" />
+  <text x="682" y="646" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">安全性评分</text>
+  <text x="1200" y="646" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#27AE60" text-anchor="end">9.0 / 10</text>
+
+  
+  <rect x="662" y="660" width="578" height="20" rx="0" fill="#3498DB" opacity="0.06" />
+  <path fill="#3498DB" opacity="0.15" d="M663.50,660 H1238.50 A1.50,1.50 0 0 1 1240,661.50 V661.50 A1.50,1.50 0 0 1 1238.50,663 H663.50 A1.50,1.50 0 0 1 662,661.50 V661.50 A1.50,1.50 0 0 1 663.50,660 Z" />
+
+  
+  <text x="640" y="704" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="10" fill="#AAAAAA" text-anchor="middle">数据来源：公司年报、行业研究报告  |  分析截止日期：2025年12月</text>
+</svg>

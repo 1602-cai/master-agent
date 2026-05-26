@@ -1,0 +1,9 @@
+name: doc-outline-generator
+description: Automatically extracts structured outlines from documents (PDF, Word, Markdown) for downstream processing.
+version: 0.1.0
+entrypoint: skills.doc_outline_generator.adapter:DocOutlineSkill
+requires:
+  - llm
+  - filesystem
+  - artifacts
+icon: file-text

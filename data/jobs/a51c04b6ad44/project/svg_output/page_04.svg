@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0F7FA"/>
+      <stop offset="100%" stop-color="#E8F4F8"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="growthGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F8F5"/>
+      <stop offset="100%" stop-color="#D5F5E3"/>
+    </linearGradient>
+    <linearGradient id="safetyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EBF5FB"/>
+      <stop offset="100%" stop-color="#D6EAF8"/>
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#48CAE4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#48CAE4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#48CAE4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="warningGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E74C3C"/>
+      <stop offset="100%" stop-color="#F39C12"/>
+    </linearGradient>
+    <linearGradient id="safeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#27AE60"/>
+      <stop offset="100%" stop-color="#2ECC71"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#00000020"/>
+    </filter>
+    <filter id="softShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000015"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGrad)"/>
+
+  <!-- 顶部标题栏 - 与 P03 一致 -->
+  <rect x="0" y="0" width="1280" height="72" fill="url(#headerGrad)"/>
+  <rect x="0" y="72" width="1280" height="4" fill="#48CAE4" opacity="0.4"/>
+
+  <!-- 页面指示器 -->
+  <rect x="40" y="20" width="36" height="36" rx="18" fill="#FFFFFF" opacity="0.2"/>
+  <text x="58" y="44" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+
+  <text x="96" y="44" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">四维度分析（下）</text>
+
+  <!-- 子标题 -->
+  <text x="96" y="62" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" fill="#90E0EF">成长性 · 安全性</text>
+
+  <!-- 页码 -->
+  <text x="1240" y="44" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" opacity="0.7" text-anchor="end">04 / 10</text>
+
+  <!-- ===== 左侧 — 成长性 ===== -->
+  <!-- 卡片背景 -->
+  <rect x="40" y="100" width="578" height="580" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+
+  <!-- 成长性标题区 -->
+  <rect x="40" y="100" width="578" height="64" rx="14" fill="#1ABC9C" opacity="0.12"/>
+  <rect x="40" y="150" width="578" height="14" fill="#1ABC9C" opacity="0.08"/>
+
+  <!-- 成长性图标 + 标题 -->
+  <use data-icon="tabler-outline/trending-up-3.svg" x="64" y="118" width="28" height="28" fill="#1ABC9C"/>
+  <text x="102" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1ABC9C">成长性</text>
+  <text x="400" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#1ABC9C" opacity="0.6" text-anchor="end">Growth Analysis</text>
+
+  <!-- 营收增长 CAGR 卡片 -->
+  <rect x="60" y="178" width="240" height="80" rx="10" fill="#E8F8F5" filter="url(#softShadow)"/>
+  <text x="180" y="202" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#555555" text-anchor="middle">营收增长 (CAGR)</text>
+  <text x="180" y="238" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1ABC9C" text-anchor="middle">+18.6%</text>
+  <text x="180" y="252" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="10" fill="#888888" text-anchor="middle">近3年复合增长率</text>
+
+  <!-- 利润增长波动卡片 -->
+  <rect x="320" y="178" width="278" height="80" rx="10" fill="#FDF2E9" filter="url(#softShadow)"/>
+  <text x="459" y="202" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#555555" text-anchor="middle">利润增长波动</text>
+  <use data-icon="phosphor-duotone/warning.svg" x="420" y="214" width="18" height="18" fill="#E67E22"/>
+  <text x="459" y="238" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#E67E22" text-anchor="middle">波动剧烈</text>
+  <text x="459" y="252" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="10" fill="#888888" text-anchor="middle">净利润增长率 ±45%</text>
+
+  <!-- 增收不增利 - 警示区域 -->
+  <rect x="60" y="272" width="538" height="62" rx="8" fill="#FDF2E9" stroke="#E67E22" stroke-width="1" stroke-dasharray="4,3"/>
+  <use data-icon="phosphor-duotone/warning-circle.svg" x="76" y="286" width="22" height="22" fill="#E67E22"/>
+  <text x="108" y="300" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#E67E22">增收不增利</text>
+  <text x="108" y="320" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" fill="#666666">收入持续增长，但利润增长远落后于营收，盈利能力未见同步提升</text>
+
+  <!-- 成长质量分析 - 拆分三个横向指标 -->
+  <text x="60" y="360" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333333">成长质量分析</text>
+
+  <!-- 指标 1 -->
+  <rect x="60" y="374" width="538" height="46" rx="8" fill="#F8FAFB"/>
+  <text x="80" y="392" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#333333">营收增长率趋势</text>
+  <text x="80" y="410" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">逐年放缓，从+28%降至+12%</text>
+  <rect x="490" y="380" width="88" height="24" rx="12" fill="#FADBD8"/>
+  <text x="534" y="396" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E74C3C" text-anchor="middle">增速放缓</text>
+
+  <!-- 指标 2 -->
+  <rect x="60" y="428" width="538" height="46" rx="8" fill="#F8FAFB"/>
+  <text x="80" y="446" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#333333">利润质量</text>
+  <text x="80" y="464" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">非经常性损益占比高，核心利润下滑</text>
+  <rect x="490" y="434" width="88" height="24" rx="12" fill="#FADBD8"/>
+  <text x="534" y="450" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E74C3C" text-anchor="middle">质量堪忧</text>
+
+  <!-- 指标 3 -->
+  <rect x="60" y="482" width="538" height="46" rx="8" fill="#F8FAFB"/>
+  <text x="80" y="500" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#333333">现金流匹配度</text>
+  <text x="80" y="518" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">经营现金流/净利润比值低于 0.6，利润含金量不足</text>
+  <rect x="490" y="488" width="88" height="24" rx="12" fill="#FADBD8"/>
+  <text x="534" y="504" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#E74C3C" text-anchor="middle">含金量低</text>
+
+  <!-- 成长性结论 -->
+  <rect x="60" y="542" width="538" height="54" rx="8" fill="#FEF9E7" stroke="#F39C12" stroke-width="1.5"/>
+  <use data-icon="phosphor-duotone/seal-warning.svg" x="78" y="556" width="20" height="20" fill="#F39C12"/>
+  <text x="108" y="558" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#E67E22">结论：成长性表面良好，实质存忧</text>
+  <text x="108" y="580" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">收入增长掩盖了利润质量下滑、现金流不匹配等结构性问题</text>
+
+  <!-- 评分条 -->
+  <rect x="60" y="604" width="538" height="8" rx="4" fill="#ECF0F1"/>
+  <rect x="60" y="604" width="296" height="8" rx="4" fill="url(#warningGrad)"/>
+  <text x="60" y="624" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">成长性评分</text>
+  <text x="538" y="624" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#E67E22" text-anchor="end">5.5 / 10</text>
+
+  <!-- 左侧底部装饰 -->
+  <rect x="40" y="660" width="578" height="20" rx="0" fill="#1ABC9C" opacity="0.06"/>
+  <rect x="40" y="660" width="578" height="3" rx="1.5" fill="#1ABC9C" opacity="0.15"/>
+
+  <!-- ===== 垂直分割线 ===== -->
+  <rect x="634" y="100" width="3" height="580" rx="1.5" fill="url(#dividerGrad)"/>
+
+  <!-- ===== 右侧 — 安全性 ===== -->
+  <!-- 卡片背景 -->
+  <rect x="662" y="100" width="578" height="580" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+
+  <!-- 安全性标题区 -->
+  <rect x="662" y="100" width="578" height="64" rx="14" fill="#3498DB" opacity="0.1"/>
+  <rect x="662" y="150" width="578" height="14" fill="#3498DB" opacity="0.06"/>
+
+  <!-- 安全性图标 + 标题 -->
+  <use data-icon="tabler-filled/shield-check.svg" x="686" y="118" width="28" height="28" fill="#3498DB"/>
+  <text x="724" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#3498DB">安全性</text>
+  <text x="1202" y="140" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" fill="#3498DB" opacity="0.6" text-anchor="end">Safety / Security Analysis</text>
+
+  <!-- 安全指标概览 - 四个小指标 -->
+  <rect x="682" y="170" width="125" height="68" rx="8" fill="#EBF5FB" filter="url(#softShadow)"/>
+  <text x="744" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">资产负债率</text>
+  <text x="744" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">42.3%</text>
+
+  <rect x="820" y="170" width="125" height="68" rx="8" fill="#EBF5FB" filter="url(#softShadow)"/>
+  <text x="882" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">流动比率</text>
+  <text x="882" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">2.15</text>
+
+  <rect x="958" y="170" width="125" height="68" rx="8" fill="#EBF5FB" filter="url(#softShadow)"/>
+  <text x="1020" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">现金比率</text>
+  <text x="1020" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">0.83</text>
+
+  <rect x="1096" y="170" width="125" height="68" rx="8" fill="#EBF5FB" filter="url(#softShadow)"/>
+  <text x="1158" y="194" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#555555" text-anchor="middle">利息保障倍数</text>
+  <text x="1158" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2ECC71" text-anchor="middle">8.5x</text>
+
+  <!-- 安全性详细分析 -->
+  <text x="682" y="270" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333333">关键安全维度评估</text>
+
+  <!-- 维度 1: 短期偿债能力 -->
+  <rect x="682" y="284" width="538" height="82" rx="10" fill="#F8FAFB"/>
+  <use data-icon="phosphor-duotone/shield-warning.svg" x="700" y="300" width="20" height="20" fill="#3498DB"/>
+  <text x="730" y="314" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">短期偿债能力</text>
+  <text x="730" y="334" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">流动比率 2.15，速动比率 1.52，均处于健康区间</text>
+  <text x="730" y="352" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">短期借款占总负债比例较低，流动性压力小</text>
+  <rect x="1132" y="296" width="68" height="22" rx="11" fill="#D5F5E3"/>
+  <text x="1166" y="311" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#27AE60" text-anchor="middle">良好 ✓</text>
+
+  <!-- 维度 2: 长期偿债能力 -->
+  <rect x="682" y="376" width="538" height="82" rx="10" fill="#F8FAFB"/>
+  <use data-icon="phosphor-duotone/shield-warning.svg" x="700" y="392" width="20" height="20" fill="#3498DB"/>
+  <text x="730" y="406" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">长期偿债能力</text>
+  <text x="730" y="426" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">资产负债率 42.3%，处于行业合理水平</text>
+  <text x="730" y="444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">利息保障倍数 8.5x，偿债能力充足，违约风险低</text>
+  <rect x="1132" y="388" width="68" height="22" rx="11" fill="#D5F5E3"/>
+  <text x="1166" y="403" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#27AE60" text-anchor="middle">良好 ✓</text>
+
+  <!-- 维度 3: 运营资金效率 -->
+  <rect x="682" y="468" width="538" height="82" rx="10" fill="#F8FAFB"/>
+  <use data-icon="phosphor-duotone/shield-warning.svg" x="700" y="484" width="20" height="20" fill="#3498DB"/>
+  <text x="730" y="498" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">运营资金效率</text>
+  <text x="730" y="518" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">应收账款周转天数逐步缩短，回款效率提升</text>
+  <text x="730" y="536" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">存货周转率稳定，不存在大量积压问题</text>
+  <rect x="1132" y="480" width="68" height="22" rx="11" fill="#D5F5E3"/>
+  <text x="1166" y="495" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" font-weight="bold" fill="#27AE60" text-anchor="middle">良好 ✓</text>
+
+  <!-- 安全性结论 -->
+  <rect x="682" y="564" width="538" height="54" rx="8" fill="#EAFAF1" stroke="#27AE60" stroke-width="1.5"/>
+  <use data-icon="chunk-filled/shield-check.svg" x="700" y="578" width="20" height="20" fill="#27AE60"/>
+  <text x="730" y="580" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13" font-weight="bold" fill="#27AE60">结论：安全边际充足，财务结构稳健</text>
+  <text x="730" y="602" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#666666">各项偿债指标均处于健康区间，短期和长期均无明显风险敞口</text>
+
+  <!-- 评分条 -->
+  <rect x="682" y="626" width="538" height="8" rx="4" fill="#ECF0F1"/>
+  <rect x="682" y="626" width="484" height="8" rx="4" fill="url(#safeGrad)"/>
+  <text x="682" y="646" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11" fill="#888888">安全性评分</text>
+  <text x="1200" y="646" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#27AE60" text-anchor="end">9.0 / 10</text>
+
+  <!-- 右侧底部装饰 -->
+  <rect x="662" y="660" width="578" height="20" rx="0" fill="#3498DB" opacity="0.06"/>
+  <rect x="662" y="660" width="578" height="3" rx="1.5" fill="#3498DB" opacity="0.15"/>
+
+  <!-- ===== 底部脚注 ===== -->
+  <text x="640" y="704" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="10" fill="#AAAAAA" text-anchor="middle">数据来源：公司年报、行业研究报告  |  分析截止日期：2025年12月</text>
+</svg>

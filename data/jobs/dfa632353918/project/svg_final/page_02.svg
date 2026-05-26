@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#003366" flood-opacity="0.08" />
+    </filter>
+    <linearGradient id="accent-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E67E22" />
+      <stop offset="100%" stop-color="#E67E22" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F5F5" />
+      <stop offset="100%" stop-color="#EEEEEE" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bg-gradient)" />
+
+  
+  <rect x="0" y="0" width="1280" height="76" fill="#FFFFFF" filter="url(#card-shadow)" />
+  <rect x="0" y="76" width="1280" height="1" fill="#EEEEEE" />
+
+  
+  <rect x="0" y="0" width="4" height="76" fill="#E67E22" />
+
+  
+  <text x="48" y="48" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="26" fill="#003366" font-weight="bold">盈利核心指标概览</text>
+
+  
+  <path fill="#F5F5F5" d="M454,28 H556 A14,14 0 0 1 570,42 V42 A14,14 0 0 1 556,56 H454 A14,14 0 0 1 440,42 V42 A14,14 0 0 1 454,28 Z" />
+  
+  <g transform="translate(454.0, 32.0) scale(0.6666666666666666)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12" />
+    <path d="M16 3v4" />
+    <path d="M8 3v4" />
+    <path d="M4 11h16" />
+    <path d="M8 14v4" />
+    <path d="M12 14v4" />
+    <path d="M16 14v4" />
+  </g>
+  <text x="476" y="47" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#333333">2023-2024</text>
+
+  
+  <path fill="#003366" d="M604,28 H644 A14,14 0 0 1 658,42 V42 A14,14 0 0 1 644,56 H604 A14,14 0 0 1 590,42 V42 A14,14 0 0 1 604,28 Z" />
+  <text x="605" y="47" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">年度</text>
+
+  <path fill="#F5F5F5" d="M682,28 H722 A14,14 0 0 1 736,42 V42 A14,14 0 0 1 722,56 H682 A14,14 0 0 1 668,42 V42 A14,14 0 0 1 682,28 Z" />
+  <text x="683" y="47" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#666666">季度</text>
+
+  
+
+  
+  <path fill="#FFFFFF" filter="url(#card-shadow)" d="M60,104 H408 A12,12 0 0 1 420,116 V268 A12,12 0 0 1 408,280 H60 A12,12 0 0 1 48,268 V116 A12,12 0 0 1 60,104 Z" />
+  <path fill="#E67E22" d="M50,104 H418 A2,2 0 0 1 420,106 V106 A2,2 0 0 1 418,108 H50 A2,2 0 0 1 48,106 V106 A2,2 0 0 1 50,104 Z" />
+
+  
+  <g transform="translate(72.0, 128.0) scale(0.9166666666666666)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
+    <path d="M12 7v10" />
+  </g>
+  <text x="104" y="145" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="15" fill="#666666">营业总收入</text>
+
+  <text x="72" y="210" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="38" fill="#003366">286.49</text>
+  <text x="210" y="210" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="16" fill="#666666">亿元</text>
+
+  <path fill="#E8F5E9" d="M84,232 H120 A12,12 0 0 1 132,244 V244 A12,12 0 0 1 120,256 H84 A12,12 0 0 1 72,244 V244 A12,12 0 0 1 84,232 Z" />
+  
+  <g transform="translate(80.0, 236.0) scale(0.5833333333333334)" fill="none" stroke="#2E7D32" stroke-width="2">
+    <path d="M3 17l6 -6l4 4l8 -8" />
+    <path d="M14 7l7 0l0 7" />
+  </g>
+  <text x="98" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#2E7D32" font-weight="bold">+12.8%</text>
+
+  <text x="148" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">同比</text>
+
+  
+  <path fill="#FFFFFF" filter="url(#card-shadow)" d="M466,104 H814 A12,12 0 0 1 826,116 V268 A12,12 0 0 1 814,280 H466 A12,12 0 0 1 454,268 V116 A12,12 0 0 1 466,104 Z" />
+  <path fill="#003366" d="M456,104 H824 A2,2 0 0 1 826,106 V106 A2,2 0 0 1 824,108 H456 A2,2 0 0 1 454,106 V106 A2,2 0 0 1 456,104 Z" />
+
+  
+  <g transform="translate(478.0, 128.0) scale(0.9166666666666666)" fill="none" stroke="#003366" stroke-width="2">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+    <path d="M12 17v1m0 -8v1" />
+  </g>
+  <text x="510" y="145" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="15" fill="#666666">归母净利润</text>
+
+  <text x="478" y="210" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="38" fill="#003366">42.37</text>
+  <text x="614" y="210" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="16" fill="#666666">亿元</text>
+
+  <path fill="#E8F5E9" d="M490,232 H526 A12,12 0 0 1 538,244 V244 A12,12 0 0 1 526,256 H490 A12,12 0 0 1 478,244 V244 A12,12 0 0 1 490,232 Z" />
+  
+  <g transform="translate(486.0, 236.0) scale(0.5833333333333334)" fill="none" stroke="#2E7D32" stroke-width="2">
+    <path d="M3 17l6 -6l4 4l8 -8" />
+    <path d="M14 7l7 0l0 7" />
+  </g>
+  <text x="504" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#2E7D32" font-weight="bold">+8.3%</text>
+
+  <text x="554" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">同比</text>
+
+  
+  <path fill="#FFFFFF" filter="url(#card-shadow)" d="M872,104 H1220 A12,12 0 0 1 1232,116 V268 A12,12 0 0 1 1220,280 H872 A12,12 0 0 1 860,268 V116 A12,12 0 0 1 872,104 Z" />
+  <path fill="#E67E22" d="M862,104 H1230 A2,2 0 0 1 1232,106 V106 A2,2 0 0 1 1230,108 H862 A2,2 0 0 1 860,106 V106 A2,2 0 0 1 862,104 Z" />
+
+  
+  <g transform="translate(884.0, 128.0) scale(0.9166666666666666)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M16 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M6 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M6 18l12 -12" />
+  </g>
+  <text x="916" y="145" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="15" fill="#666666">毛利率</text>
+
+  <text x="884" y="210" font-family="'Montserrat Bold','微软雅黑 Bold',Arial,sans-serif" font-size="38" fill="#003366">32.6</text>
+  <text x="1020" y="210" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="16" fill="#666666">%</text>
+
+  <path fill="#FFEBEE" d="M896,232 H932 A12,12 0 0 1 944,244 V244 A12,12 0 0 1 932,256 H896 A12,12 0 0 1 884,244 V244 A12,12 0 0 1 896,232 Z" />
+  
+  <g transform="translate(892.0, 236.0) scale(0.5833333333333334)" fill="none" stroke="#C62828" stroke-width="2">
+    <path d="M3 7l6 6l4 -4l8 8" />
+    <path d="M21 10l0 7l-7 0" />
+  </g>
+  <text x="910" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#C62828" font-weight="bold">-1.2%</text>
+
+  <text x="960" y="249" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">同比</text>
+
+  
+
+  
+  <path fill="#FFFFFF" filter="url(#card-shadow)" d="M60,308 H626 A12,12 0 0 1 638,320 V680 A12,12 0 0 1 626,692 H60 A12,12 0 0 1 48,680 V320 A12,12 0 0 1 60,308 Z" />
+  <rect x="48" y="308" width="590" height="1" fill="#EEEEEE" />
+
+  <text x="72" y="340" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="18" fill="#003366">营收结构分析</text>
+  <text x="72" y="360" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#999999">按业务板块划分（2024年度）</text>
+
+  
+  <text x="72" y="400" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">智慧终端业务</text>
+  <text x="550" y="400" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">45.2%</text>
+  <path fill="#EEEEEE" d="M76,410 H578 A4,4 0 0 1 582,414 V414 A4,4 0 0 1 578,418 H76 A4,4 0 0 1 72,414 V414 A4,4 0 0 1 76,410 Z" />
+  <path fill="#003366" d="M76,410 H299 A4,4 0 0 1 303,414 V414 A4,4 0 0 1 299,418 H76 A4,4 0 0 1 72,414 V414 A4,4 0 0 1 76,410 Z" />
+
+  
+  <text x="72" y="450" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">云计算与AI服务</text>
+  <text x="550" y="450" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">28.7%</text>
+  <path fill="#EEEEEE" d="M76,460 H578 A4,4 0 0 1 582,464 V464 A4,4 0 0 1 578,468 H76 A4,4 0 0 1 72,464 V464 A4,4 0 0 1 76,460 Z" />
+  <path fill="#E67E22" d="M76,460 H215 A4,4 0 0 1 219,464 V464 A4,4 0 0 1 215,468 H76 A4,4 0 0 1 72,464 V464 A4,4 0 0 1 76,460 Z" />
+
+  
+  <text x="72" y="500" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">企业软件服务</text>
+  <text x="550" y="500" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">16.3%</text>
+  <path fill="#EEEEEE" d="M76,510 H578 A4,4 0 0 1 582,514 V514 A4,4 0 0 1 578,518 H76 A4,4 0 0 1 72,514 V514 A4,4 0 0 1 76,510 Z" />
+  <path fill="#999999" d="M76,510 H152 A4,4 0 0 1 156,514 V514 A4,4 0 0 1 152,518 H76 A4,4 0 0 1 72,514 V514 A4,4 0 0 1 76,510 Z" />
+
+  
+  <text x="72" y="550" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="14" fill="#333333">其他业务</text>
+  <text x="550" y="550" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="14" fill="#003366" text-anchor="end">9.8%</text>
+  <path fill="#EEEEEE" d="M76,560 H578 A4,4 0 0 1 582,564 V564 A4,4 0 0 1 578,568 H76 A4,4 0 0 1 72,564 V564 A4,4 0 0 1 76,560 Z" />
+  <path fill="#CCCCCC" d="M76,560 H118 A4,4 0 0 1 122,564 V564 A4,4 0 0 1 118,568 H76 A4,4 0 0 1 72,564 V564 A4,4 0 0 1 76,560 Z" />
+
+  
+  <rect x="72" y="590" width="510" height="1" fill="#EEEEEE" />
+
+  
+  
+  <g transform="translate(72.0, 612.0) scale(0.6666666666666666)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M18 5l3 3l-3 3" />
+    <path d="M3 18h5l7 -10h6" />
+  </g>
+  <text x="96" y="625" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">智慧终端业务同比增长</text>
+  <text x="230" y="625" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="12" fill="#2E7D32" font-weight="bold">+15.6%</text>
+  <text x="296" y="625" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">，驱动整体营收增长</text>
+
+  
+
+  <path fill="#FFFFFF" filter="url(#card-shadow)" d="M674,308 H1220 A12,12 0 0 1 1232,320 V680 A12,12 0 0 1 1220,692 H674 A12,12 0 0 1 662,680 V320 A12,12 0 0 1 674,308 Z" />
+  <rect x="662" y="308" width="570" height="1" fill="#EEEEEE" />
+
+  <text x="686" y="340" font-family="'Montserrat SemiBold','微软雅黑 Bold',Arial,sans-serif" font-size="18" fill="#003366">盈利能力趋势</text>
+  <text x="686" y="360" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="13" fill="#999999">近四个季度核心指标变化</text>
+
+  
+  <path fill="#003366" d="M688,380 H696 A2,2 0 0 1 698,382 V390 A2,2 0 0 1 696,392 H688 A2,2 0 0 1 686,390 V382 A2,2 0 0 1 688,380 Z" />
+  <text x="704" y="391" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">毛利率</text>
+
+  <path fill="#E67E22" d="M772,380 H780 A2,2 0 0 1 782,382 V390 A2,2 0 0 1 780,392 H772 A2,2 0 0 1 770,390 V382 A2,2 0 0 1 772,380 Z" />
+  <text x="788" y="391" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#666666">净利率</text>
+
+  
+  
+  <text x="700" y="450" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">40%</text>
+  <text x="700" y="496" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">30%</text>
+  <text x="700" y="542" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">20%</text>
+  <text x="700" y="588" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">10%</text>
+  <text x="700" y="634" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">0%</text>
+
+  
+  <rect x="718" y="442" width="490" height="1" fill="#EEEEEE" />
+  <rect x="718" y="488" width="490" height="1" fill="#EEEEEE" />
+  <rect x="718" y="534" width="490" height="1" fill="#EEEEEE" />
+  <rect x="718" y="580" width="490" height="1" fill="#EEEEEE" />
+  <rect x="718" y="626" width="490" height="1" fill="#EEEEEE" />
+
+  
+  <text x="740" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q1</text>
+  <text x="848" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q2</text>
+  <text x="956" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q3</text>
+  <text x="1064" y="658" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="11" fill="#999999">Q4</text>
+
+  
+  
+  
+  
+  
+  
+  <polyline points="742,477 850,476 958,478 1066,481" fill="none" stroke="#003366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  
+  <circle cx="742" cy="477" r="4" fill="#003366" />
+  <circle cx="850" cy="476" r="4" fill="#003366" />
+  <circle cx="958" cy="478" r="4" fill="#003366" />
+  <circle cx="1066" cy="481" r="4" fill="#003366" />
+
+  
+  <text x="742" y="470" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">32.8%</text>
+  <text x="850" y="468" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">33.1%</text>
+  <text x="958" y="470" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">32.6%</text>
+  <text x="1066" y="473" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#003366" text-anchor="middle">32.0%</text>
+
+  
+  
+  
+  
+  
+  <polyline points="742,561 850,558 958,557 1066,559" fill="none" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  
+  <circle cx="742" cy="561" r="4" fill="#E67E22" />
+  <circle cx="850" cy="558" r="4" fill="#E67E22" />
+  <circle cx="958" cy="557" r="4" fill="#E67E22" />
+  <circle cx="1066" cy="559" r="4" fill="#E67E22" />
+
+  
+  <text x="742" y="574" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">14.2%</text>
+  <text x="850" y="571" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">14.8%</text>
+  <text x="958" y="570" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">15.1%</text>
+  <text x="1066" y="572" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#E67E22" text-anchor="middle">14.6%</text>
+
+  
+  <path fill="#F5F5F5" opacity="0.6" d="M688,670 H1206 A2,2 0 0 1 1208,672 V682 A2,2 0 0 1 1206,684 H688 A2,2 0 0 1 686,682 V672 A2,2 0 0 1 688,670 Z" />
+  <text x="692" y="680" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#999999">数据来源：公司年度财报  |  统计截止日期：2024年12月31日</text>
+
+</svg>

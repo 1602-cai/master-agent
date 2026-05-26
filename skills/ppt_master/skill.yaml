@@ -1,0 +1,9 @@
+name: ppt-master
+description: Minimal PPT generation skill for harness MVP
+version: 0.1.0
+entrypoint: skills.ppt_master.adapter:PPTMasterSkill
+requires:
+  - llm
+  - filesystem
+  - artifacts
+  - confirmation

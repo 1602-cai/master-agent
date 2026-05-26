@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="shadow-light" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#003366" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadow-card" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#003366" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="header-bg" x1="0" y1="0" x2="1280" y2="0">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#1a4a6e"/>
+    </linearGradient>
+    <linearGradient id="accent-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E67E22"/>
+      <stop offset="100%" stop-color="#d4691e"/>
+    </linearGradient>
+    <linearGradient id="chart-line-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E67E22"/>
+      <stop offset="100%" stop-color="#E67E22" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="chart-line-grad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#003366" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F5F5F5"/>
+
+  <!-- 顶部标题栏 -->
+  <rect x="0" y="0" width="1280" height="72" fill="url(#header-bg)"/>
+  <rect x="0" y="70" width="1280" height="2" fill="#E67E22"/>
+
+  <!-- 标题图标 -->
+  <use data-icon="tabler-outline/cash-banknote.svg" x="30" y="20" width="32" height="32" fill="#FFFFFF"/>
+
+  <!-- 标题 -->
+  <text x="74" y="38" font-family="'Montserrat Bold','微软雅黑',Arial,sans-serif" font-size="24" fill="#FFFFFF" font-weight="bold" letter-spacing="1">现金流深度剖析</text>
+
+  <!-- 副标题 -->
+  <text x="74" y="58" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#EEEEEE" opacity="0.8">经营现金流 vs 净利润 · 趋势差异分析</text>
+
+  <!-- 右上角核心矛盾标签 -->
+  <rect x="1080" y="16" width="170" height="40" rx="20" ry="20" fill="#E67E22" opacity="0.95"/>
+  <use data-icon="tabler-outline/trending-up-down.svg" x="1092" y="24" width="24" height="24" fill="#FFFFFF"/>
+  <text x="1122" y="42" font-family="'Montserrat SemiBold','微软雅黑',Arial,sans-serif" font-size="13" fill="#FFFFFF">核心矛盾</text>
+
+  <!-- ============ 左侧图表区域（组合图表） ============ -->
+  <rect x="30" y="92" width="740" height="380" rx="8" fill="#FFFFFF" filter="url(#shadow-card)"/>
+
+  <!-- 图表标题区 -->
+  <rect x="30" y="92" width="740" height="44" rx="8" fill="#003366"/>
+  <rect x="30" y="118" width="740" height="18" fill="#003366"/>
+  <text x="50" y="120" font-family="'Montserrat SemiBold','微软雅黑',Arial,sans-serif" font-size="15" fill="#FFFFFF">
+    <tspan>经营现金流 vs 净利润 趋势对比</tspan>
+    <tspan font-size="11" fill="#EEEEEE" opacity="0.7">  （2021Q1 — 2024Q2）</tspan>
+  </text>
+
+  <!-- 图例 -->
+  <rect x="530" y="104" width="14" height="3" rx="1.5" fill="#E67E22"/>
+  <text x="550" y="107" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#333333">经营现金流</text>
+  <rect x="630" y="104" width="14" height="3" rx="1.5" fill="#003366"/>
+  <text x="650" y="107" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#333333">净利润</text>
+
+  <!-- 图表网格背景线 -->
+  <g stroke="#EEEEEE" stroke-width="0.8">
+    <line x1="60" y1="148" x2="750" y2="148"/>
+    <line x1="60" y1="194" x2="750" y2="194"/>
+    <line x1="60" y1="240" x2="750" y2="240"/>
+    <line x1="60" y1="286" x2="750" y2="286"/>
+    <line x1="60" y1="332" x2="750" y2="332"/>
+    <line x1="60" y1="378" x2="750" y2="378"/>
+    <line x1="60" y1="424" x2="750" y2="424"/>
+  </g>
+
+  <!-- Y轴标签 -->
+  <g font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="9" fill="#999999" text-anchor="end">
+    <text x="55" y="151">+150%</text>
+    <text x="55" y="197">+100%</text>
+    <text x="55" y="243">+50%</text>
+    <text x="55" y="289">0%</text>
+    <text x="55" y="335">-50%</text>
+    <text x="55" y="381">-100%</text>
+    <text x="55" y="427">-150%</text>
+  </g>
+
+  <!-- X轴标签 -->
+  <g font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="9" fill="#999999" text-anchor="middle">
+    <text x="76" y="445">21Q1</text>
+    <text x="114" y="445">21Q2</text>
+    <text x="153" y="445">21Q3</text>
+    <text x="192" y="445">21Q4</text>
+    <text x="231" y="445">22Q1</text>
+    <text x="269" y="445">22Q2</text>
+    <text x="308" y="445">22Q3</text>
+    <text x="347" y="445">22Q4</text>
+    <text x="386" y="445">23Q1</text>
+    <text x="425" y="445">23Q2</text>
+    <text x="463" y="445">23Q3</text>
+    <text x="502" y="445">23Q4</text>
+    <text x="541" y="445">24Q1</text>
+    <text x="580" y="445">24Q2</text>
+  </g>
+
+  <!-- 零轴基准线 -->
+  <line x1="60" y1="286" x2="750" y2="286" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- 经营现金流折线 (#E67E22) -->
+  <polyline points="76,270 114,250 153,230 192,240 231,260 269,252 308,230 347,218 386,196 425,176 463,166 502,158 541,148 580,152"
+            fill="none" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 经营现金流区域填充 -->
+  <polygon points="76,270 114,250 153,230 192,240 231,260 269,252 308,230 347,218 386,196 425,176 463,166 502,158 541,148 580,152 580,286 541,286 502,286 463,286 425,286 386,286 347,286 308,286 269,286 231,286 192,286 153,286 114,286 76,286"
+           fill="#E67E22" fill-opacity="0.06"/>
+
+  <!-- 经营现金流数据点 -->
+  <g fill="#E67E22">
+    <circle cx="76" cy="270" r="3.5"/>
+    <circle cx="114" cy="250" r="3.5"/>
+    <circle cx="153" cy="230" r="3.5"/>
+    <circle cx="192" cy="240" r="3.5"/>
+    <circle cx="231" cy="260" r="3.5"/>
+    <circle cx="269" cy="252" r="3.5"/>
+    <circle cx="308" cy="230" r="3.5"/>
+    <circle cx="347" cy="218" r="3.5"/>
+    <circle cx="386" cy="196" r="3.5"/>
+    <circle cx="425" cy="176" r="3.5"/>
+    <circle cx="463" cy="166" r="3.5"/>
+    <circle cx="502" cy="158" r="3.5"/>
+    <circle cx="541" cy="148" r="3.5"/>
+    <circle cx="580" cy="152" r="3.5"/>
+  </g>
+
+  <!-- 净利润折线 (#003366) -->
+  <polyline points="76,278 114,272 153,268 192,260 231,256 269,262 308,270 347,276 386,280 425,278 463,272 502,264 541,260 580,258"
+            fill="none" stroke="#003366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6,3"/>
+
+  <!-- 净利润数据点 -->
+  <g fill="#003366">
+    <circle cx="76" cy="278" r="3"/>
+    <circle cx="114" cy="272" r="3"/>
+    <circle cx="153" cy="268" r="3"/>
+    <circle cx="192" cy="260" r="3"/>
+    <circle cx="231" cy="256" r="3"/>
+    <circle cx="269" cy="262" r="3"/>
+    <circle cx="308" cy="270" r="3"/>
+    <circle cx="347" cy="276" r="3"/>
+    <circle cx="386" cy="280" r="3"/>
+    <circle cx="425" cy="278" r="3"/>
+    <circle cx="463" cy="272" r="3"/>
+    <circle cx="502" cy="264" r="3"/>
+    <circle cx="541" cy="260" r="3"/>
+    <circle cx="580" cy="258" r="3"/>
+  </g>
+
+  <!-- 剪刀差标注区域（23Q1-24Q2） -->
+  <rect x="375" y="140" width="214" height="150" rx="0" fill="none" stroke="#E67E22" stroke-width="1.5" stroke-dasharray="4,3" stroke-opacity="0.6"/>
+  <text x="482" y="455" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="9" fill="#E67E22" text-anchor="middle" font-weight="bold">剪刀差持续扩大</text>
+
+  <!-- 底部注解 -->
+  <text x="50" y="472" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#999999">
+    <tspan>* 经营现金流同比增幅持续高于净利润增幅，23Q1后剪刀差显著扩大</tspan>
+  </text>
+
+  <!-- ============ 右侧核心指标卡片 ============ -->
+
+  <!-- 卡片1: 经营现金流增长 -->
+  <rect x="790" y="92" width="460" height="112" rx="8" fill="#FFFFFF" filter="url(#shadow-card)"/>
+  <rect x="790" y="92" width="6" height="112" rx="3" fill="url(#accent-bar)"/>
+  <use data-icon="tabler-outline/trending-up-2.svg" x="810" y="110" width="28" height="28" fill="#E67E22"/>
+  <text x="848" y="122" font-family="'Montserrat SemiBold','微软雅黑',Arial,sans-serif" font-size="13" fill="#333333" font-weight="bold">经营现金流同比增长</text>
+  <text x="848" y="142" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#999999">Operating Cash Flow YoY Growth</text>
+  <text x="1150" y="132" font-family="'Montserrat Bold','微软雅黑',Arial,sans-serif" font-size="32" fill="#E67E22" font-weight="bold" text-anchor="end">+82%</text>
+  <text x="1150" y="155" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="9" fill="#999999" text-anchor="end">vs 上期 +32%</text>
+  <!-- 微趋势线 -->
+  <polyline points="810,185 835,175 860,178 885,168 910,160 935,152 960,148"
+            fill="none" stroke="#E67E22" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- 卡片2: 净利润增长 -->
+  <rect x="790" y="214" width="460" height="112" rx="8" fill="#FFFFFF" filter="url(#shadow-card)"/>
+  <rect x="790" y="214" width="6" height="112" rx="3" fill="#003366"/>
+  <use data-icon="tabler-outline/trending-up.svg" x="810" y="232" width="28" height="28" fill="#003366"/>
+  <text x="848" y="244" font-family="'Montserrat SemiBold','微软雅黑',Arial,sans-serif" font-size="13" fill="#333333" font-weight="bold">净利润同比增长</text>
+  <text x="848" y="264" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#999999">Net Profit YoY Growth</text>
+  <text x="1150" y="254" font-family="'Montserrat Bold','微软雅黑',Arial,sans-serif" font-size="32" fill="#003366" font-weight="bold" text-anchor="end">+28%</text>
+  <text x="1150" y="277" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="9" fill="#999999" text-anchor="end">vs 上期 +35%</text>
+  <!-- 微趋势线 -->
+  <polyline points="810,307 835,300 860,304 885,296 910,292 935,294 960,290"
+            fill="none" stroke="#003366" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- 卡片3: 剪刀差 -->
+  <rect x="790" y="336" width="460" height="112" rx="8" fill="#FFFFFF" filter="url(#shadow-card)"/>
+  <rect x="790" y="336" width="6" height="112" rx="3" fill="#E67E22"/>
+  <use data-icon="tabler-outline/trending-up-down.svg" x="810" y="354" width="28" height="28" fill="#E67E22"/>
+  <text x="848" y="366" font-family="'Montserrat SemiBold','微软雅黑',Arial,sans-serif" font-size="13" fill="#333333" font-weight="bold">现金流-利润剪刀差</text>
+  <text x="848" y="386" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#999999">Cash Flow vs Net Profit Gap</text>
+  <text x="1150" y="376" font-family="'Montserrat Bold','微软雅黑',Arial,sans-serif" font-size="32" fill="#E67E22" font-weight="bold" text-anchor="end">+54%</text>
+  <text x="1150" y="399" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="9" fill="#999999" text-anchor="end">较上期扩大 +22%</text>
+  <!-- 箭头指示 -->
+  <line x1="810" y1="440" x2="960" y2="440" stroke="#E67E22" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="960,436 968,440 960,444" fill="#E67E22"/>
+
+  <!-- ============ 底部洞察卡片 ============ -->
+  <rect x="30" y="490" width="1220" height="80" rx="8" fill="#FFFFFF" filter="url(#shadow-card)"/>
+
+  <!-- 左侧洞察标题 -->
+  <rect x="30" y="490" width="180" height="80" rx="8" fill="#003366"/>
+  <rect x="194" y="490" width="16" height="80" fill="#003366"/>
+  <use data-icon="tabler-outline/cash-banknote.svg" x="75" y="510" width="24" height="24" fill="#FFFFFF"/>
+  <text x="107" y="530" font-family="'Montserrat SemiBold','微软雅黑',Arial,sans-serif" font-size="13" fill="#FFFFFF">核心洞察</text>
+  <text x="107" y="548" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#EEEEEE" opacity="0.8">Key Insights</text>
+
+  <!-- 洞察条目 -->
+  <g font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="12" fill="#333333">
+    <!-- 第1条 -->
+    <circle cx="235" cy="525" r="4" fill="#E67E22"/>
+    <text x="248" y="529">
+      <tspan font-family="'Montserrat SemiBold','微软雅黑'" font-weight="bold">盈利质量改善：</tspan>
+      <tspan>经营现金流增速 (82%) 远超净利润增速 (28%)，利润"含金量"显著提升</tspan>
+    </text>
+
+    <!-- 第2条 -->
+    <circle cx="670" cy="525" r="4" fill="#E67E22"/>
+    <text x="683" y="529">
+      <tspan font-family="'Montserrat SemiBold','微软雅黑'" font-weight="bold">营运效率优化：</tspan>
+      <tspan>应收周转加速+库存去化，营运资本释放驱动现金流增长</tspan>
+    </text>
+
+    <!-- 第3条 -->
+    <circle cx="235" cy="553" r="4" fill="#E67E22"/>
+    <text x="248" y="557">
+      <tspan font-family="'Montserrat SemiBold','微软雅黑'" font-weight="bold">潜在风险：</tspan>
+      <tspan>若净利润持续滞后，需警惕利润调节或非经常性损益占比过高</tspan>
+    </text>
+  </g>
+
+  <!-- 页码 -->
+  <text x="1240" y="710" font-family="'Calibri','微软雅黑',Arial,sans-serif" font-size="10" fill="#999999" text-anchor="end">03 / 05</text>
+</svg>

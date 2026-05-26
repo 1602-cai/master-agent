@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="leftClip"><rect x="0" y="0" width="640" height="720" rx="0" /></clipPath>
+    <clipPath id="rightClip"><rect x="640" y="0" width="640" height="720" rx="0" /></clipPath>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="#F5F5F5" />
+
+  
+  <rect x="0" y="0" width="640" height="720" fill="#003366" />
+
+  
+  <rect x="0" y="0" width="640" height="8" fill="#E67E22" />
+
+  
+  <path fill="rgba(230,126,34,0.2)" d="M84,80 H84 A24,24 0 0 1 108,104 V104 A24,24 0 0 1 84,128 H84 A24,24 0 0 1 60,104 V104 A24,24 0 0 1 84,80 Z" />
+  
+  <g transform="translate(72.0, 92.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+
+  <text x="124" y="112" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="28" fill="#FFFFFF" font-weight="600">风险</text>
+  <text x="124" y="136" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="14" fill="rgba(255,255,255,0.5)" letter-spacing="2">RISK FACTORS</text>
+
+  
+  <rect x="60" y="160" width="520" height="2" fill="rgba(230,126,34,0.3)" />
+
+  
+  <path fill="rgba(255,255,255,0.06)" d="M68,200 H572 A8,8 0 0 1 580,208 V312 A8,8 0 0 1 572,320 H68 A8,8 0 0 1 60,312 V208 A8,8 0 0 1 68,200 Z" />
+  <path fill="#E67E22" d="M62,200 H62 A2,2 0 0 1 64,202 V318 A2,2 0 0 1 62,320 H62 A2,2 0 0 1 60,318 V202 A2,2 0 0 1 62,200 Z" />
+
+  
+  <g transform="translate(88.0, 226.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 7l6 6l4 -4l8 8" />
+    <path d="M21 10l0 7l-7 0" />
+  </g>
+
+  <text x="128" y="238" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#FFFFFF" font-weight="600">应收账款压力增大</text>
+  <text fill="rgba(255,255,255,0.75)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="88" y="272">应收账款周转天数同比上升15%，</text><text fill="rgba(255,255,255,0.75)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="88" y="296">回款周期延长，资金占用加剧。</text><path fill="rgba(255,255,255,0.06)" d="M68,340 H572 A8,8 0 0 1 580,348 V452 A8,8 0 0 1 572,460 H68 A8,8 0 0 1 60,452 V348 A8,8 0 0 1 68,340 Z" />
+  <path fill="#E67E22" d="M62,340 H62 A2,2 0 0 1 64,342 V458 A2,2 0 0 1 62,460 H62 A2,2 0 0 1 60,458 V342 A2,2 0 0 1 62,340 Z" />
+
+  
+  <g transform="translate(88.0, 366.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 7l6 6l4 -4l8 8" />
+    <path d="M21 10l0 7l-7 0" />
+  </g>
+
+  <text x="128" y="378" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#FFFFFF" font-weight="600">经营现金流波动</text>
+  <text fill="rgba(255,255,255,0.75)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="88" y="412">经营性现金流净额季度波动达±35%，</text><text fill="rgba(255,255,255,0.75)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="88" y="436">短期偿债能力面临一定挑战。</text><path fill="rgba(255,255,255,0.06)" d="M68,480 H572 A8,8 0 0 1 580,488 V592 A8,8 0 0 1 572,600 H68 A8,8 0 0 1 60,592 V488 A8,8 0 0 1 68,480 Z" />
+  <path fill="#E67E22" d="M62,480 H62 A2,2 0 0 1 64,482 V598 A2,2 0 0 1 62,600 H62 A2,2 0 0 1 60,598 V482 A2,2 0 0 1 62,480 Z" />
+
+  
+  <g transform="translate(88.0, 506.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 7l6 6l4 -4l8 8" />
+    <path d="M21 10l0 7l-7 0" />
+  </g>
+
+  <text x="128" y="518" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#FFFFFF" font-weight="600">毛利率承压</text>
+  <text fill="rgba(255,255,255,0.75)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="88" y="552">原材料成本上涨及竞争加剧，</text><text fill="rgba(255,255,255,0.75)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="88" y="576">毛利率同比下滑约2.3个百分点。</text><circle cx="320" cy="670" r="3" fill="rgba(230,126,34,0.3)" />
+  <circle cx="340" cy="670" r="3" fill="rgba(230,126,34,0.2)" />
+  <circle cx="360" cy="670" r="3" fill="rgba(230,126,34,0.1)" />
+
+
+  
+  <rect x="640" y="0" width="640" height="720" fill="#FFFFFF" />
+
+  
+  <rect x="640" y="0" width="640" height="8" fill="#E67E22" />
+
+  
+  <path fill="rgba(230,126,34,0.12)" d="M724,80 H724 A24,24 0 0 1 748,104 V104 A24,24 0 0 1 724,128 H724 A24,24 0 0 1 700,104 V104 A24,24 0 0 1 724,80 Z" />
+  
+  <g transform="translate(712.0, 92.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 17l6 -6l4 4l8 -8" />
+    <path d="M14 7l7 0l0 7" />
+  </g>
+
+  <text x="764" y="112" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="28" fill="#333333" font-weight="600">机遇</text>
+  <text x="764" y="136" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="14" fill="rgba(51,51,51,0.4)" letter-spacing="2">OPPORTUNITIES</text>
+
+  
+  <rect x="700" y="160" width="520" height="2" fill="rgba(230,126,34,0.2)" />
+
+  
+  <path fill="#F5F5F5" d="M708,200 H1212 A8,8 0 0 1 1220,208 V312 A8,8 0 0 1 1212,320 H708 A8,8 0 0 1 700,312 V208 A8,8 0 0 1 708,200 Z" />
+  <path fill="#E67E22" d="M702,200 H702 A2,2 0 0 1 704,202 V318 A2,2 0 0 1 702,320 H702 A2,2 0 0 1 700,318 V202 A2,2 0 0 1 702,200 Z" />
+
+  
+  <g transform="translate(728.0, 226.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 17l6 -6l4 4l8 -8" />
+    <path d="M14 7l7 0l0 7" />
+  </g>
+
+  <text x="768" y="238" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#333333" font-weight="600">海外市场拓展</text>
+  <text fill="rgba(51,51,51,0.7)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="728" y="272">东南亚及中东新兴市场需求旺盛，</text><text fill="rgba(51,51,51,0.7)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="728" y="296">海外营收同比增长32%，增长空间广阔。</text><path fill="#F5F5F5" d="M708,340 H1212 A8,8 0 0 1 1220,348 V452 A8,8 0 0 1 1212,460 H708 A8,8 0 0 1 700,452 V348 A8,8 0 0 1 708,340 Z" />
+  <path fill="#E67E22" d="M702,340 H702 A2,2 0 0 1 704,342 V458 A2,2 0 0 1 702,460 H702 A2,2 0 0 1 700,458 V342 A2,2 0 0 1 702,340 Z" />
+
+  
+  <g transform="translate(728.0, 366.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 17l6 -6l4 4l8 -8" />
+    <path d="M14 7l7 0l0 7" />
+  </g>
+
+  <text x="768" y="378" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#333333" font-weight="600">产品结构升级</text>
+  <text fill="rgba(51,51,51,0.7)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="728" y="412">高附加值产品占比持续提升，</text><text fill="rgba(51,51,51,0.7)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="728" y="436">新品类毛利率较传统产品高出8-12个百分点。</text><path fill="#F5F5F5" d="M708,480 H1212 A8,8 0 0 1 1220,488 V592 A8,8 0 0 1 1212,600 H708 A8,8 0 0 1 700,592 V488 A8,8 0 0 1 708,480 Z" />
+  <path fill="#E67E22" d="M702,480 H702 A2,2 0 0 1 704,482 V598 A2,2 0 0 1 702,600 H702 A2,2 0 0 1 700,598 V482 A2,2 0 0 1 702,480 Z" />
+
+  
+  <g transform="translate(728.0, 506.0)" fill="none" stroke="#E67E22" stroke-width="2">
+    <path d="M3 17l6 -6l4 4l8 -8" />
+    <path d="M14 7l7 0l0 7" />
+  </g>
+
+  <text x="768" y="518" font-family="'Montserrat SemiBold','Microsoft YaHei',sans-serif" font-size="20" fill="#333333" font-weight="600">数字化降本增效</text>
+  <text fill="rgba(51,51,51,0.7)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="728" y="552">智能制造与数字化供应链投入初见成效，</text><text fill="rgba(51,51,51,0.7)" font-size="15" font-family="'Calibri','Microsoft YaHei',sans-serif" x="728" y="576">预计未来两年运营成本可降低约15%。</text><circle cx="960" cy="670" r="3" fill="rgba(230,126,34,0.25)" />
+  <circle cx="980" cy="670" r="3" fill="rgba(230,126,34,0.15)" />
+  <circle cx="1000" cy="670" r="3" fill="rgba(230,126,34,0.08)" />
+
+
+  
+  <path fill="#E67E22" d="M490,310 H790 A50,50 0 0 1 840,360 V360 A50,50 0 0 1 790,410 H490 A50,50 0 0 1 440,360 V360 A50,50 0 0 1 490,310 Z" />
+  <text x="640" y="358" font-family="'Montserrat Bold','Microsoft YaHei',sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="700" letter-spacing="1">关键风险与机遇</text>
+  <text x="640" y="390" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle" letter-spacing="4">关键风险与机遇</text>
+
+  
+  <line x1="440" y1="360" x2="300" y2="360" stroke="rgba(230,126,34,0.2)" stroke-width="1" stroke-dasharray="4,4" />
+  <line x1="840" y1="360" x2="980" y2="360" stroke="rgba(230,126,34,0.2)" stroke-width="1" stroke-dasharray="4,4" />
+
+  
+  <text x="640" y="700" font-family="'Calibri','Microsoft YaHei',sans-serif" font-size="12" fill="rgba(51,51,51,0.3)" text-anchor="middle">04 / 05</text>
+</svg>

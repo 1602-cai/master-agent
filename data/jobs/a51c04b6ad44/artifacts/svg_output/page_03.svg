@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0FAFF"/>
+      <stop offset="100%" stop-color="#E3F5FD"/>
+    </linearGradient>
+    <linearGradient id="leftCardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="rightCardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#48CAE4"/>
+    </linearGradient>
+    <linearGradient id="tabGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#48CAE4"/>
+    </linearGradient>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#0077B6" flood-opacity="0.12"/>
+    </filter>
+    <filter id="cardShadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0077B6" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGrad)"/>
+
+  <!-- 顶部装饰线 -->
+  <rect x="0" y="0" width="1280" height="4" fill="url(#tabGrad)"/>
+
+  <!-- ===== 标题栏 ===== -->
+  <rect x="0" y="16" width="1280" height="72" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="0" y="16" width="1280" height="72" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- 页码标记 -->
+  <rect x="40" y="38" width="32" height="32" rx="16" fill="#0077B6"/>
+  <text x="56" y="59" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">3</text>
+
+  <!-- 主标题 -->
+  <text x="88" y="62" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold">四维度财务分析</text>
+  <text x="272" y="62" fill="#48CAE4" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="16" font-weight="bold">|</text>
+  <text x="286" y="62" fill="#555555" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="16">现金保障性 · 持续性</text>
+
+  <!-- 右上角装饰 -->
+  <circle cx="1210" cy="50" r="24" fill="#90E0EF" opacity="0.3"/>
+  <circle cx="1230" cy="56" r="16" fill="#48CAE4" opacity="0.2"/>
+  <circle cx="1245" cy="44" r="10" fill="#0077B6" opacity="0.15"/>
+
+  <!-- ===== 分割线 ===== -->
+  <line x1="40" y1="100" x2="1240" y2="100" stroke="#B8D8E8" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ===== 左侧：现金保障性 ===== -->
+  <!-- 左侧大卡片背景 -->
+  <rect x="40" y="120" width="580" height="570" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- 卡片标题区域 -->
+  <rect x="40" y="120" width="580" height="60" rx="14" fill="url(#leftCardGrad)"/>
+  <rect x="40" y="166" width="580" height="14" fill="url(#leftCardGrad)"/>
+
+  <use href="#tabler-outline/cash-banknote-plus.svg" x="66" y="136" width="28" height="28" fill="#FFFFFF"/>
+  <text x="108" y="157" fill="#FFFFFF" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold">维度一：现金保障性</text>
+
+  <!-- 核心指标卡片 -->
+  <rect x="62" y="198" width="536" height="88" rx="10" fill="#F0FAFF" stroke="#90E0EF" stroke-width="1"/>
+  <text x="80" y="222" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">核心问题</text>
+  <text x="80" y="248" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14">经营活动现金流净额持续为负，净利润为正但现金流为负</text>
+  <text x="80" y="272" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14">→ 利润"含金量"低，盈利质量存疑</text>
+
+  <!-- 关键指标 1：收现比 -->
+  <rect x="62" y="302" width="256" height="140" rx="10" fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="62" y="302" width="256" height="36" rx="10" fill="#90E0EF" opacity="0.4"/>
+  <rect x="62" y="328" width="256" height="10" fill="#90E0EF" opacity="0.4"/>
+  <use href="#tabler-outline/trending-down.svg" x="78" y="310" width="20" height="20" fill="#FF6B6B"/>
+  <text x="108" y="326" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">收现比</text>
+
+  <text x="80" y="362" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">指标含义</text>
+  <text x="80" y="382" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">销售商品、提供劳务收到的现金 / 营业收入</text>
+  <text x="80" y="410" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">&lt; 1.0</text>
+  <text x="130" y="410" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">→ 收入未形成实际现金流入</text>
+
+  <!-- 关键指标 2：净现比 -->
+  <rect x="338" y="302" width="260" height="140" rx="10" fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="338" y="302" width="260" height="36" rx="10" fill="#90E0EF" opacity="0.4"/>
+  <rect x="338" y="328" width="260" height="10" fill="#90E0EF" opacity="0.4"/>
+  <use href="#tabler-outline/alert-triangle.svg" x="354" y="310" width="20" height="20" fill="#FF6B6B"/>
+  <text x="384" y="326" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">净现比</text>
+
+  <text x="356" y="362" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">指标含义</text>
+  <text x="356" y="382" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">经营活动现金流净额 / 净利润</text>
+  <text x="356" y="410" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">为负</text>
+  <text x="420" y="410" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">→ 净利润无现金支撑</text>
+
+  <!-- 数据可视化示意：现金流柱状对比 -->
+  <rect x="62" y="458" width="536" height="100" rx="10" fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="80" y="482" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">净利润 vs 经营活动现金流净额</text>
+
+  <!-- 柱状图示意 -->
+  <text x="120" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2021</text>
+  <text x="240" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2022</text>
+  <text x="360" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2023</text>
+  <text x="480" y="505" fill="#999999" font-family="Arial, sans-serif" font-size="11">2024</text>
+
+  <!-- 净利润柱(蓝) -->
+  <rect x="105" y="512" width="30" height="28" rx="3" fill="#48CAE4" opacity="0.8"/>
+  <text x="120" y="508" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+  <rect x="225" y="515" width="30" height="25" rx="3" fill="#48CAE4" opacity="0.8"/>
+  <text x="240" y="511" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+  <rect x="345" y="510" width="30" height="30" rx="3" fill="#48CAE4" opacity="0.8"/>
+  <text x="360" y="506" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+  <rect x="465" y="513" width="30" height="27" rx="3" fill="#48CAE4" opacity="0.8"/>
+  <text x="480" y="509" text-anchor="middle" fill="#0077B6" font-family="Arial, sans-serif" font-size="10">正</text>
+
+  <!-- 现金流柱(红) -->
+  <rect x="140" y="525" width="30" height="15" rx="3" fill="#FF6B6B" opacity="0.8"/>
+  <text x="155" y="508" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+  <rect x="260" y="528" width="30" height="12" rx="3" fill="#FF6B6B" opacity="0.8"/>
+  <text x="275" y="511" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+  <rect x="380" y="522" width="30" height="18" rx="3" fill="#FF6B6B" opacity="0.8"/>
+  <text x="395" y="506" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+  <rect x="500" y="526" width="30" height="14" rx="3" fill="#FF6B6B" opacity="0.8"/>
+  <text x="515" y="509" text-anchor="middle" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="10">负</text>
+
+  <!-- 图例 -->
+  <rect x="80" y="540" width="10" height="10" rx="2" fill="#48CAE4" opacity="0.8"/>
+  <text x="94" y="549" fill="#888888" font-family="Arial, sans-serif" font-size="10">净利润</text>
+  <rect x="145" y="540" width="10" height="10" rx="2" fill="#FF6B6B" opacity="0.8"/>
+  <text x="159" y="549" fill="#888888" font-family="Arial, sans-serif" font-size="10">经营现金流</text>
+
+  <!-- 结论区域 -->
+  <rect x="62" y="574" width="536" height="100" rx="10" fill="#FFF5F5" stroke="#FFB0B0" stroke-width="1"/>
+  <use href="#tabler-filled/alert-triangle.svg" x="80" y="588" width="20" height="20" fill="#FF6B6B"/>
+  <text x="110" y="604" fill="#D63031" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">分析结论</text>
+  <text x="80" y="630" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">• 公司净利润连续多年为正，但经营活动现金流持续为负</text>
+  <text x="80" y="652" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">• 收现比 &lt; 1、净现比为负，盈利的现金保障性严重不足</text>
+  <text x="80" y="674" fill="#D63031" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">→ 盈利的现金保障性不足 ⚠️</text>
+
+  <!-- ===== 右侧：持续性 ===== -->
+  <rect x="660" y="120" width="580" height="570" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- 卡片标题区域 -->
+  <rect x="660" y="120" width="580" height="60" rx="14" fill="url(#rightCardGrad)"/>
+  <rect x="660" y="166" width="580" height="14" fill="url(#rightCardGrad)"/>
+
+  <use href="#tabler-outline/refresh-alert.svg" x="686" y="136" width="28" height="28" fill="#FFFFFF"/>
+  <text x="728" y="157" fill="#FFFFFF" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="22" font-weight="bold">维度二：持续性</text>
+
+  <!-- 核心观察卡片 -->
+  <rect x="682" y="198" width="536" height="88" rx="10" fill="#F0FAFF" stroke="#90E0EF" stroke-width="1"/>
+  <text x="700" y="222" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">核心观察维度</text>
+  <text x="700" y="248" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14">评估公司盈利来源是否稳定、是否可持续</text>
+  <text x="700" y="272" fill="#555555" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">关注核心业务收入增长趋势、营收质量与依赖度</text>
+
+  <!-- 三列子维度 -->
+  <!-- 子维度1：收入增长 -->
+  <rect x="682" y="302" width="170" height="170" rx="10" fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="682" y="302" width="170" height="42" rx="10" fill="#90E0EF" opacity="0.3"/>
+  <rect x="682" y="334" width="170" height="10" fill="#90E0EF" opacity="0.3"/>
+  <use href="#chunk-filled/arrow-trend-up.svg" x="720" y="312" width="20" height="20" fill="#0077B6"/>
+  <text x="750" y="329" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">收入增长</text>
+
+  <text x="700" y="366" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">营业收入增长率</text>
+  <text x="700" y="388" fill="#0077B6" font-family="Arial, sans-serif" font-size="20" font-weight="bold">-12.3%</text>
+  <text x="780" y="388" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12">↓</text>
+  <text x="700" y="412" fill="#888888" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">连续两年负增长</text>
+  <text x="700" y="432" fill="#FF6B6B" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" font-weight="bold">趋势偏弱</text>
+  <rect x="700" y="444" width="30" height="4" rx="2" fill="#FF6B6B"/>
+  <rect x="734" y="444" width="30" height="4" rx="2" fill="#FFB0B0"/>
+  <rect x="768" y="444" width="30" height="4" rx="2" fill="#B8D8E8"/>
+
+  <!-- 子维度2：营收质量 -->
+  <rect x="866" y="302" width="170" height="170" rx="10" fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="866" y="302" width="170" height="42" rx="10" fill="#90E0EF" opacity="0.3"/>
+  <rect x="866" y="334" width="170" height="10" fill="#90E0EF" opacity="0.3"/>
+  <use href="#tabler-filled/rosette-discount-check.svg" x="904" y="312" width="20" height="20" fill="#0077B6"/>
+  <text x="934" y="329" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">营收质量</text>
+
+  <text x="884" y="366" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">主营业务收入占比</text>
+  <text x="884" y="388" fill="#0077B6" font-family="Arial, sans-serif" font-size="20" font-weight="bold">100%</text>
+  <text x="700" y="412" fill="#888888" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">收入来源单一</text>
+  <text x="884" y="432" fill="#FFA500" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" font-weight="bold">过度集中</text>
+  <rect x="884" y="444" width="30" height="4" rx="2" fill="#FFA500"/>
+  <rect x="918" y="444" width="30" height="4" rx="2" fill="#FFB0B0"/>
+  <rect x="952" y="444" width="30" height="4" rx="2" fill="#B8D8E8"/>
+
+  <!-- 子维度3：核心利润 -->
+  <rect x="1050" y="302" width="168" height="170" rx="10" fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="1050" y="302" width="168" height="42" rx="10" fill="#90E0EF" opacity="0.3"/>
+  <rect x="1050" y="334" width="168" height="10" fill="#90E0EF" opacity="0.3"/>
+  <use href="#tabler-outline/pig-money.svg" x="1086" y="312" width="20" height="20" fill="#0077B6"/>
+  <text x="1116" y="329" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">核心利润</text>
+
+  <text x="1068" y="366" fill="#999999" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">扣非净利润占比</text>
+  <text x="1068" y="388" fill="#0077B6" font-family="Arial, sans-serif" font-size="20" font-weight="bold">82%</text>
+  <text x="1068" y="412" fill="#888888" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="11">依赖非经常性损益</text>
+  <text x="1068" y="432" fill="#FFA500" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="12" font-weight="bold">需关注</text>
+  <rect x="1068" y="444" width="30" height="4" rx="2" fill="#FFA500"/>
+  <rect x="1102" y="444" width="30" height="4" rx="2" fill="#FFB0B0"/>
+  <rect x="1136" y="444" width="30" height="4" rx="2" fill="#B8D8E8"/>
+
+  <!-- 趋势分析区域 -->
+  <rect x="682" y="488" width="536" height="90" rx="10" fill="#FFFFFF" stroke="#E0E8F0" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="700" y="514" fill="#0077B6" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">趋势判断</text>
+
+  <circle cx="720" cy="540" r="6" fill="#FF6B6B"/>
+  <text x="735" y="544" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">收入连续下滑，主业增长乏力</text>
+
+  <circle cx="720" cy="562" r="6" fill="#FFA500"/>
+  <text x="735" y="566" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">营收结构过度集中，抗风险能力不足</text>
+
+  <!-- 结论 -->
+  <rect x="682" y="594" width="536" height="80" rx="10" fill="#FFF8F0" stroke="#FFD7A5" stroke-width="1"/>
+  <use href="#tabler-outline/info-circle.svg" x="700" y="610" width="20" height="20" fill="#FFA500"/>
+  <text x="730" y="625" fill="#E67E00" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="15" font-weight="bold">初步判断</text>
+  <text x="700" y="650" fill="#444444" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="13">持续性存在隐忧，需进一步结合行业趋势与公司战略深度分析</text>
+  <text x="700" y="668" fill="#E67E00" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="14" font-weight="bold">→ 持续性待验证 ⚡</text>
+
+  <!-- 底部页码 -->
+  <text x="640" y="708" text-anchor="middle" fill="#B8D8E8" font-family="Arial, sans-serif" font-size="12">— 03 / 四维度分析 (上) —</text>
+</svg>

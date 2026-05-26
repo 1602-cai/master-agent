@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1A2F" />
+      <stop offset="100%" stop-color="#0D2137" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A2D44" />
+      <stop offset="100%" stop-color="#152638" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#48CAE4" />
+      <stop offset="100%" stop-color="#0077B6" />
+    </linearGradient>
+    <linearGradient id="dangerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E74C3C" />
+      <stop offset="100%" stop-color="#C0392B" />
+    </linearGradient>
+    <linearGradient id="okGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2ECC71" />
+      <stop offset="100%" stop-color="#27AE60" />
+    </linearGradient>
+    <linearGradient id="warningGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F39C12" />
+      <stop offset="100%" stop-color="#E67E22" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+    <filter id="shadowDeep">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGrad)" />
+
+  
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="1280" y2="720" stroke="#FFFFFF" stroke-width="0.5" />
+    <line x1="640" y1="0" x2="1280" y2="360" stroke="#FFFFFF" stroke-width="0.5" />
+    <line x1="0" y1="360" x2="640" y2="720" stroke="#FFFFFF" stroke-width="0.5" />
+  </g>
+
+  
+  <rect x="0" y="0" width="1280" height="4" fill="url(#accentGrad)" />
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.8" d="M52,30 H1228 A12,12 0 0 1 1240,42 V98 A12,12 0 0 1 1228,110 H52 A12,12 0 0 1 40,98 V42 A12,12 0 0 1 52,30 Z" />
+  <path fill="url(#accentGrad)" d="M43,30 H43 A3,3 0 0 1 46,33 V107 A3,3 0 0 1 43,110 H43 A3,3 0 0 1 40,107 V33 A3,3 0 0 1 43,30 Z" />
+
+  <text x="70" y="78" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="2">📊 总结与结论</text>
+  <text x="70" y="102" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#90E0EF" opacity="0.7">Summary &amp; Conclusion</text>
+
+  
+  <path fill="#48CAE4" opacity="0.15" d="M1225,55 H1225 A15,15 0 0 1 1240,70 V70 A15,15 0 0 1 1225,85 H1225 A15,15 0 0 1 1210,70 V70 A15,15 0 0 1 1225,55 Z" />
+  <text x="1225" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#48CAE4" text-anchor="middle">5</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadowDeep)" opacity="0.9" d="M56,135 H1224 A16,16 0 0 1 1240,151 V314 A16,16 0 0 1 1224,330 H56 A16,16 0 0 1 40,314 V151 A16,16 0 0 1 56,135 Z" />
+  <path fill="none" stroke="#48CAE4" stroke-width="1" opacity="0.15" d="M56,135 H1224 A16,16 0 0 1 1240,151 V314 A16,16 0 0 1 1224,330 H56 A16,16 0 0 1 40,314 V151 A16,16 0 0 1 56,135 Z" />
+
+  
+  
+
+  <text x="110" y="180" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="1">核心结论</text>
+  <text x="110" y="205" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#90E0EF" opacity="0.6">Core Conclusion</text>
+
+  
+  <line x1="60" y1="218" x2="1180" y2="218" stroke="#48CAE4" stroke-width="1" opacity="0.2" />
+
+  
+  <text x="60" y="260" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="800" fill="#FFFFFF" letter-spacing="3">
+    <tspan fill="#FFFFFF">锐明技术</tspan>
+    <tspan fill="#48CAE4" font-size="36"> — </tspan>
+    <tspan fill="#E74C3C" font-size="32" font-weight="700">"表面风光，暗藏风险"</tspan>
+  </text>
+
+  
+  <path fill="url(#dangerGrad)" filter="url(#glow)" opacity="0.85" d="M960,230 H1100 A40,40 0 0 1 1140,270 V270 A40,40 0 0 1 1100,310 H960 A40,40 0 0 1 920,270 V270 A40,40 0 0 1 960,230 Z" />
+  <text x="1030" y="266" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.7" text-anchor="middle" letter-spacing="2">综合评级</text>
+  <text x="1030" y="298" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">⚠ 警惕</text>
+
+  
+  
+  <text x="60" y="365" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" letter-spacing="1">四维度综合评分</text>
+  <text x="60" y="385" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#90E0EF" opacity="0.5">4-Dimension Scoring</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.85" d="M54,405 H306 A14,14 0 0 1 320,419 V521 A14,14 0 0 1 306,535 H54 A14,14 0 0 1 40,521 V419 A14,14 0 0 1 54,405 Z" />
+  <path fill="none" stroke="#E74C3C" stroke-width="1.5" opacity="0.3" d="M54,405 H306 A14,14 0 0 1 320,419 V521 A14,14 0 0 1 306,535 H54 A14,14 0 0 1 40,521 V419 A14,14 0 0 1 54,405 Z" />
+  <circle cx="75" cy="440" r="18" fill="#E74C3C" opacity="0.2" />
+  <text x="75" y="446" font-family="Arial, sans-serif" font-size="18" fill="#E74C3C" text-anchor="middle" font-weight="700">✕</text>
+  <text x="105" y="446" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">现金保障性</text>
+  <text x="105" y="466" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#90E0EF" opacity="0.5">Cash Security</text>
+  <line x1="60" y1="482" x2="300" y2="482" stroke="#E74C3C" stroke-width="1" opacity="0.15" />
+  <path fill="#1A2D44" d="M64,498 H296 A4,4 0 0 1 300,502 V502 A4,4 0 0 1 296,506 H64 A4,4 0 0 1 60,502 V502 A4,4 0 0 1 64,498 Z" />
+  <path fill="#E74C3C" opacity="0.8" d="M64,498 H116 A4,4 0 0 1 120,502 V502 A4,4 0 0 1 116,506 H64 A4,4 0 0 1 60,502 V502 A4,4 0 0 1 64,498 Z" />
+  <text x="280" y="520" font-family="Arial, sans-serif" font-size="13" fill="#E74C3C" text-anchor="end" font-weight="600">1.2 / 10</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.85" d="M354,405 H606 A14,14 0 0 1 620,419 V521 A14,14 0 0 1 606,535 H354 A14,14 0 0 1 340,521 V419 A14,14 0 0 1 354,405 Z" />
+  <path fill="none" stroke="#E74C3C" stroke-width="1.5" opacity="0.3" d="M354,405 H606 A14,14 0 0 1 620,419 V521 A14,14 0 0 1 606,535 H354 A14,14 0 0 1 340,521 V419 A14,14 0 0 1 354,405 Z" />
+  <circle cx="375" cy="440" r="18" fill="#E74C3C" opacity="0.2" />
+  <text x="375" y="446" font-family="Arial, sans-serif" font-size="18" fill="#E74C3C" text-anchor="middle" font-weight="700">✕</text>
+  <text x="405" y="446" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">持续性</text>
+  <text x="405" y="466" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#90E0EF" opacity="0.5">Sustainability</text>
+  <line x1="360" y1="482" x2="600" y2="482" stroke="#E74C3C" stroke-width="1" opacity="0.15" />
+  <path fill="#1A2D44" d="M364,498 H596 A4,4 0 0 1 600,502 V502 A4,4 0 0 1 596,506 H364 A4,4 0 0 1 360,502 V502 A4,4 0 0 1 364,498 Z" />
+  <path fill="#E74C3C" opacity="0.8" d="M364,498 H428 A4,4 0 0 1 432,502 V502 A4,4 0 0 1 428,506 H364 A4,4 0 0 1 360,502 V502 A4,4 0 0 1 364,498 Z" />
+  <text x="580" y="520" font-family="Arial, sans-serif" font-size="13" fill="#E74C3C" text-anchor="end" font-weight="600">1.7 / 10</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.85" d="M654,405 H906 A14,14 0 0 1 920,419 V521 A14,14 0 0 1 906,535 H654 A14,14 0 0 1 640,521 V419 A14,14 0 0 1 654,405 Z" />
+  <path fill="none" stroke="#2ECC71" stroke-width="1.5" opacity="0.3" d="M654,405 H906 A14,14 0 0 1 920,419 V521 A14,14 0 0 1 906,535 H654 A14,14 0 0 1 640,521 V419 A14,14 0 0 1 654,405 Z" />
+  <circle cx="675" cy="440" r="18" fill="#2ECC71" opacity="0.2" />
+  <text x="675" y="446" font-family="Arial, sans-serif" font-size="18" fill="#2ECC71" text-anchor="middle" font-weight="700">✓</text>
+  <text x="705" y="446" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">成长性</text>
+  <text x="705" y="466" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#90E0EF" opacity="0.5">Growth</text>
+  <line x1="660" y1="482" x2="900" y2="482" stroke="#2ECC71" stroke-width="1" opacity="0.15" />
+  <path fill="#1A2D44" d="M664,498 H896 A4,4 0 0 1 900,502 V502 A4,4 0 0 1 896,506 H664 A4,4 0 0 1 660,502 V502 A4,4 0 0 1 664,498 Z" />
+  <path fill="#2ECC71" opacity="0.8" d="M664,498 H824 A4,4 0 0 1 828,502 V502 A4,4 0 0 1 824,506 H664 A4,4 0 0 1 660,502 V502 A4,4 0 0 1 664,498 Z" />
+  <text x="880" y="520" font-family="Arial, sans-serif" font-size="13" fill="#2ECC71" text-anchor="end" font-weight="600">6.5 / 10</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.85" d="M954,405 H1226 A14,14 0 0 1 1240,419 V521 A14,14 0 0 1 1226,535 H954 A14,14 0 0 1 940,521 V419 A14,14 0 0 1 954,405 Z" />
+  <path fill="none" stroke="#E74C3C" stroke-width="1.5" opacity="0.3" d="M954,405 H1226 A14,14 0 0 1 1240,419 V521 A14,14 0 0 1 1226,535 H954 A14,14 0 0 1 940,521 V419 A14,14 0 0 1 954,405 Z" />
+  <circle cx="975" cy="440" r="18" fill="#E74C3C" opacity="0.2" />
+  <text x="975" y="446" font-family="Arial, sans-serif" font-size="18" fill="#E74C3C" text-anchor="middle" font-weight="700">✕</text>
+  <text x="1005" y="446" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">安全性</text>
+  <text x="1005" y="466" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#90E0EF" opacity="0.5">Safety</text>
+  <line x1="960" y1="482" x2="1220" y2="482" stroke="#E74C3C" stroke-width="1" opacity="0.15" />
+  <path fill="#1A2D44" d="M964,498 H1216 A4,4 0 0 1 1220,502 V502 A4,4 0 0 1 1216,506 H964 A4,4 0 0 1 960,502 V502 A4,4 0 0 1 964,498 Z" />
+  <path fill="#E74C3C" opacity="0.8" d="M964,498 H1034 A4,4 0 0 1 1038,502 V502 A4,4 0 0 1 1034,506 H964 A4,4 0 0 1 960,502 V502 A4,4 0 0 1 964,498 Z" />
+  <text x="1200" y="520" font-family="Arial, sans-serif" font-size="13" fill="#E74C3C" text-anchor="end" font-weight="600">1.8 / 10</text>
+
+  
+  <text x="60" y="575" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" letter-spacing="1">关键警示</text>
+  <text x="60" y="595" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#90E0EF" opacity="0.5">Key Alerts</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.85" d="M52,610 H408 A12,12 0 0 1 420,622 V683 A12,12 0 0 1 408,695 H52 A12,12 0 0 1 40,683 V622 A12,12 0 0 1 52,610 Z" />
+  <path fill="#2ECC71" d="M43,610 H43 A3,3 0 0 1 46,613 V692 A3,3 0 0 1 43,695 H43 A3,3 0 0 1 40,692 V613 A3,3 0 0 1 43,610 Z" />
+  <circle cx="78" cy="646" r="18" fill="#2ECC71" opacity="0.15" />
+  
+  <text x="115" y="642" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="700" fill="#2ECC71">✅ 营收增长</text>
+  <text x="115" y="665" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#90E0EF" opacity="0.7">营业收入保持增长趋势，规模持续扩大</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.85" d="M462,610 H818 A12,12 0 0 1 830,622 V683 A12,12 0 0 1 818,695 H462 A12,12 0 0 1 450,683 V622 A12,12 0 0 1 462,610 Z" />
+  <path fill="#E74C3C" d="M453,610 H453 A3,3 0 0 1 456,613 V692 A3,3 0 0 1 453,695 H453 A3,3 0 0 1 450,692 V613 A3,3 0 0 1 453,610 Z" />
+  <circle cx="488" cy="646" r="18" fill="#E74C3C" opacity="0.15" />
+  
+  <text x="525" y="642" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="700" fill="#E74C3C">❌ 现金流吃紧</text>
+  <text x="525" y="665" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#90E0EF" opacity="0.7">经营现金流净额持续为负，造血能力堪忧</text>
+
+  
+  <path fill="url(#cardGrad)" filter="url(#shadow)" opacity="0.85" d="M872,610 H1228 A12,12 0 0 1 1240,622 V683 A12,12 0 0 1 1228,695 H872 A12,12 0 0 1 860,683 V622 A12,12 0 0 1 872,610 Z" />
+  <path fill="#E74C3C" d="M863,610 H863 A3,3 0 0 1 866,613 V692 A3,3 0 0 1 863,695 H863 A3,3 0 0 1 860,692 V613 A3,3 0 0 1 863,610 Z" />
+  <circle cx="898" cy="646" r="18" fill="#E74C3C" opacity="0.15" />
+  
+  <text x="935" y="642" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="700" fill="#E74C3C">❌ 利润虚高</text>
+  <text x="935" y="665" font-family="'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#90E0EF" opacity="0.7">净利润与现金流严重背离，盈利质量存疑</text>
+
+  
+  <rect x="0" y="716" width="1280" height="4" fill="url(#accentGrad)" opacity="0.5" />
+
+</svg>
